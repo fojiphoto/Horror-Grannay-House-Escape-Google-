@@ -1,0 +1,156 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!90 &9000000
+Avatar:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: leg trapAvatar
+  m_AvatarSize: 1048
+  m_Avatar:
+    serializedVersion: 3
+    m_AvatarSkeleton:
+      data:
+        m_Node:
+        - m_ParentId: -1
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 1
+          m_AxesId: -1
+        - m_ParentId: 1
+          m_AxesId: -1
+        - m_ParentId: 1
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        m_ID: 0000000009cb777265b305f603a4f2b89594f5cfca1802b1
+        m_AxesArray: []
+    m_AvatarSkeletonPose:
+      data:
+        m_X:
+        - t: {x: 0, y: 0, z: 0}
+          q: {x: 0, y: 0, z: 0, w: 1}
+          s: {x: 1, y: 1, z: 1}
+        - t: {x: -104.62, y: 0.9292911, z: 113.7716}
+          q: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+          s: {x: 1, y: 1, z: 1}
+        - t: {x: 0.007490234, y: -0.0003320313, z: -0.2222505}
+          q: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+          s: {x: 1, y: 1, z: 1}
+        - t: {x: 1.731279, y: 0.007006836, z: 0.02118706}
+          q: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+          s: {x: 1, y: 1, z: 1}
+        - t: {x: -1.731269, y: 0.007011719, z: 0.0211869}
+          q: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+          s: {x: 1, y: 1, z: 1}
+        - t: {x: -104.6127, y: 0.6714807, z: 104.6974}
+          q: {x: -0.4999743, y: -0.4999831, z: -0.5000169, w: 0.5000257}
+          s: {x: 1.842266, y: 1.842267, z: 0.000888728}
+    m_DefaultPose:
+      data:
+        m_X:
+        - t: {x: 0, y: 0, z: 0}
+          q: {x: 0, y: 0, z: 0, w: 1}
+          s: {x: 1, y: 1, z: 1}
+        - t: {x: -104.62, y: 0.9292911, z: 113.7716}
+          q: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+          s: {x: 1, y: 1, z: 1}
+        - t: {x: 0.007490234, y: -0.0003320313, z: -0.2222505}
+          q: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+          s: {x: 1, y: 1, z: 1}
+        - t: {x: 1.731279, y: 0.007006836, z: 0.02118706}
+          q: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+          s: {x: 1, y: 1, z: 1}
+        - t: {x: -1.731269, y: 0.007011719, z: 0.0211869}
+          q: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+          s: {x: 1, y: 1, z: 1}
+        - t: {x: -104.6127, y: 0.6714807, z: 104.6974}
+          q: {x: -0.4999743, y: -0.4999831, z: -0.5000169, w: 0.5000257}
+          s: {x: 1.842266, y: 1.842267, z: 0.000888728}
+    m_SkeletonNameIDArray: 0000000009cb777278641359628a8a24f4ba8d53ca1802b1
+    m_Human:
+      data:
+        serializedVersion: 2
+        m_RootX:
+          t: {x: 0, y: 0, z: 0}
+          q: {x: 0, y: 0, z: 0, w: 1}
+          s: {x: 1, y: 1, z: 1}
+        m_Skeleton:
+          data:
+            m_Node: []
+            m_ID:
+            m_AxesArray: []
+        m_SkeletonPose:
+          data:
+            m_X: []
+        m_LeftHand:
+          data:
+            m_HandBoneIndex: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+        m_RightHand:
+          data:
+            m_HandBoneIndex: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+        m_Handles: []
+        m_ColliderArray: []
+        m_HumanBoneIndex: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+        m_HumanBoneMass:
+        - 0.1454546
+        - 0.1212121
+        - 0.1212121
+        - 0.04848485
+        - 0.04848485
+        - 0.009696971
+        - 0.009696971
+        - 0.03030303
+        - 0.1454546
+        - 0.1454546
+        - 0.01212121
+        - 0.04848485
+        - 0.006060607
+        - 0.006060607
+        - 0.02424243
+        - 0.02424243
+        - 0.01818182
+        - 0.01818182
+        - 0.006060607
+        - 0.006060607
+        - 0.002424243
+        - 0.002424243
+        - 0
+        - 0
+        - 0
+        m_ColliderIndex:
+        m_Scale: 1
+        m_ArmTwist: 0.5
+        m_ForeArmTwist: 0.5
+        m_UpperLegTwist: 0.5
+        m_LegTwist: 0.5
+        m_ArmStretch: 0.05
+        m_LegStretch: 0.05
+        m_FeetSpacing: 0
+        m_HasLeftHand: 0
+        m_HasRightHand: 0
+        m_HasTDoF: 0
+    m_HumanSkeletonIndexArray:
+    m_HumanSkeletonReverseIndexArray:
+    m_RootMotionBoneIndex: -1
+    m_RootMotionBoneX:
+      t: {x: 0, y: 0, z: 0}
+      q: {x: 0, y: 0, z: 0, w: 1}
+      s: {x: 1, y: 1, z: 1}
+    m_RootMotionSkeleton:
+      data:
+        m_Node: []
+        m_ID:
+        m_AxesArray: []
+    m_RootMotionSkeletonPose:
+      data:
+        m_X: []
+    m_RootMotionSkeletonIndexArray:
+  m_TOS:
+    0:
+    1920453385: leg hold trap
+    2969704650: chain
+    3102909443: leg hold trap/Tube004
+    3488978069: leg hold trap/Tube005
+    4127568741: leg hold trap/Cylinder004

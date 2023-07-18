@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>CrossProm - Documentation</title>
+		<!-- Meta -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<link rel="shortcut icon" href="https://docs.wildskullgames.com/favicon.ico">
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+		<!-- FontAwesome JS -->
+		<script defer src="https://use.fontawesome.com/releases/v5.1.1/js/all.js" integrity="sha384-BtvRZcyfv4r0x/phJt9Y9HhnN5ur1Z+kZbKVgzVBAlQZX4jvAuImlIz+bG7TS00a" crossorigin="anonymous"></script>
+		<!-- Global CSS -->
+		<link rel="stylesheet" href="https://docs.wildskullgames.com/assets/plugins/bootstrap/css/bootstrap.min.css">
+		<!-- Plugins CSS -->    
+		<link rel="stylesheet" href="https://docs.wildskullgames.com/assets/plugins/prism/prism.css">
+		<link rel="stylesheet" href="https://docs.wildskullgames.com/assets/plugins/elegant_font/css/style.css">
+		<!-- Theme CSS -->
+		<link id="theme-style" rel="stylesheet" href="https://docs.wildskullgames.com/assets/css/styles.css">
+	</head>
+	<body class="body-primary">
+		<div class="page-wrapper">
+			<!-- ******Header****** -->
+			<header id="header" class="header">
+				<div class="container">
+					<div class="branding">
+						<h1 class="logo">
+							<a href="index.html">
+							<img src="https://docs.wildskullgames.com/assets/images/logo.png">
+							</a>
+						</h1>
+					</div>
+					<!--//branding-->
+					<ol class="breadcrumb">
+						<li class="breadcrumb-item"><a href="https://docs.wildskullgames.com">Home</a></li>
+						<li class="breadcrumb-item active">CrossProm</li>
+					</ol>
+				</div>
+				<!--//container-->
+			</header>
+			<!--//header-->
+			<div class="doc-wrapper">
+				<div class="container">
+					<div id="doc-header" class="doc-header text-center">
+						<h1 class="doc-title">Getting Started</h1>
+						<div class="meta"><i class="far fa-clock"></i> Last updated: April 18th, 2019</div>
+					</div>
+					<!--//doc-header-->
+					<div class="doc-body row">
+						<div class="doc-content col-md-9 col-12 order-1">
+							<div class="content-inner">
+								<section id="introduction-section" class="doc-section">
+									<h2 class="section-title">Introduction</h2>
+									<div class="section-block">
+										<p><strong>CrossProm</strong> is a great drag and drop tool to promote your own games! It works just like the regular advertisements, but instead drives traffic to your own games. With developers and players in mind, we have made this tool to be easy to implement, easy to configure and pleasant experience for end users as well.</p>
+										<br>
+										<h4>Features:</h4>
+										<p>
+										<ul>
+											<li>
+												<p>Drag and drop solution.</p>
+											</li>
+											<li>
+												<p>Custom Editor - No reason to hassle with data files, we allow you to work from already familiar environment.</p>
+											</li>
+											<li>
+												<p>Easy to customize! Starting from UI customization, to the way tool works, we offer them all. Do you want to change the UI? Feel free to, do you want to sync more data? Feel free to do so. We even let you customize which parts of the tool can work and which can't.</p>
+											</li>
+											<li>
+												<p>Cross Platform support - Windows, Windows Phone, Android, IOS all platforms are supported.</p>
+											</li>
+											<li>
+												<p>Updates without republish! That's one of the main points of this tool. All the changes are synced to players without any app update. We pushed this even further and we even offer importing data into Unity itself, which means you won't have to setup same games over and over. They will be already set up in your next project!</p>
+											</li>
+											<li>
+												<p>Support for multiple games! Add as many games as you like...</p>
+											</li>
+											<li>
+												<p>There are a lot more features available, such as Weight System based random, (you can assign chances to each game), offline mode, automatic ad show, local images, and more.</p>
+											</li>
+										</ul>
+										</p>
+										<div class="callout-block callout-warning">
+											<div class="icon-holder">
+												<i class="fas fa-info-circle"></i>
+											</div>
+											<!--//icon-holder-->
+											<div class="content">
+												<h5 class="callout-title">JSON.NET is required!</h5>
+												<p><strong>JSON.NET is required to use our package. Please download and import free package from <a href="https://assetstore.unity.com/packages/tools/input-management/json-net-for-unity-11347" target="_blank">Here!</a></strong></p>
+											</div>
+											<!--//content-->
+										</div>
+										<!--//callout-block-->
+									</div>
+								</section>
+								<!--//doc-section-->
+								<section id="settingup-section" class="doc-section">
+									<h2 class="section-title">Setting Up</h2>
+									<div id="locating_options"  class="section-block">
+										<h4 class="block-title">Locating Options File</h4>
+										<p>Now that you have downloaded your shiny new package, what do you do next? Well, that would be configuaration and this is how it works.</p>
+										<p>Configuration file is called <b>CrossProm Configuration.</b> Navigate to <b>Assets/Hagrid's Tools/CrossProm</b> then, right click and press <b>Create/CrossProm Options.</b> CrossProm Configuration file should have now been created.</p>
+										<p><img src="https://docs.wildskullgames.com/assets/images/CrossProm/cross_prom_location.png"></p>
+									</div>
+									<!--//section-block-->
+									<div id="configuring_options"  class="section-block">
+										<h4 class="block-title">Configuring Options</h4>
+										<p>After locating the configuration file, please configure it. Here is what each field does.</p>
+										<p>New game can be added by increasing number in <strong>Promo Games List</strong></p>
+										<div class="row">
+											<div class="col-md-6 col-12">
+												<p>
+												<ul>
+													<li><b>Update URL</b> - Link for Json file.</li>
+													<li>
+														<b>Promo Games List</b> - List of all games.
+														<ul>
+															<li><b>Name</b> - Name of the game.</li>
+															<li><b>Description</b> - Description of the game</li>
+															<li><b>Android URL</b> - URL to download game on Android.</li>
+															<li><b>IOS URL</b> - URL to download game on IOS.</li>
+															<li><b>Package ID</b> - Bundle ID for the game</li>
+															<li><b>Image URL</b> - URL for Icon. (PNG, JPG, JPEG)</li>
+															<li><b>Color Theme</b> - HEX Color code, to customize frame of the ad.</li>
+															<li><b>Chance Weight</b> - Games with higher weight, will have higher chance to show up more often</li>
+														</ul>
+													</li>
+													<li>
+														<b>Buttons</b>
+														<ul>
+															<li><b>Export Data</b> - Exports currently filled data.</li>
+															<li><b>Fetch data from network</b> - Imports Json from <b>Update URL.</b> Overwrites <b>Promo Games List</b> with data from Json.</li>
+															<li><b>Fetch data from local JSON</b> - Imports local Json file. Overwrites <b>Promo Games List</b> with data from Json.</li>
+															<li><b>Fetch Images</b> - Downloads all images from <b>Image URLs</b> of <b>Promo Games List.</b> Names them accordingly to game names.</li>
+															<li><b>Log probability</b> - Takes all Chance Weights, and tells you show rate for each game in percentages</li>
+														</ul>
+													</li>
+												</ul>
+												</p>
+											</div>
+											<div class="col-md-6 col-12">
+												<p><img src="https://docs.wildskullgames.com/assets/images/CrossProm/cross_prom_config.png"></p>
+											</div>
+										</div>
+										<div class="callout-block callout-info">
+											<div class="icon-holder">
+												<i class="fas fa-info-circle"></i>
+											</div>
+											<!--//icon-holder-->
+											<div class="content">
+												<h5 class="callout-title">Info:</h5>
+												<p>1) You can revert changes by using CTRL+Z (or Command + Z on Mac)
+												<br>2) Description, Color Theme, Chance Weight - are optional fields, and can be left blank</p>
+											</div>
+											<!--//content-->
+										</div>
+										<!--//callout-block-->
+										<div class="callout-block callout-warning">
+											<div class="icon-holder">
+												<i class="fas fa-exclamation-triangle"></i>
+											</div>
+											<!--//icon-holder-->
+											<div class="content">
+												<h5 class="callout-title">Warning:</h5>
+												<p><b>Name</b> field is also used to generate some files in the back. Please avoid using any of the character's that can't be used for a file name. Otherwise it won't work.</p>
+											</div>
+											<!--//content-->
+										</div>
+										<!--//callout-block-->
+									</div>
+									<!--//section-block-->
+									<div id="local_game_icons"  class="section-block">
+										<h4 class="block-title">Local Game Icons</h4>
+										<p>CrossProm allows you to ship game icons within the game. This saves users from downloading icons on their first launch.</p>
+										<div class="row">
+											<div class="col-md-6 col-12">
+												<p><img src="https://docs.wildskullgames.com/assets/images/CrossProm/cross_prom_textures.png"></p>
+											</div>
+											<div class="col-md-6 col-12">
+												<p>
+												<ol>
+													<li>Make sure icon names' and game names' that you configured in CrossProm match!</li>
+													<li>Import all the icons into any <code>Resources</code> folder in Unity</li>
+													<li>Disable texture compression</li>
+													<li>Enable Read/Write option</li>
+													<li>You're now set!</li>
+												</ol>
+												</p>
+											</div>
+										</div>
+										<!--//row-ended-->
+										<div class="callout-block callout-info">
+											<div class="icon-holder">
+												<i class="fas fa-info-circle"></i>
+											</div>
+											<!--//icon-holder-->
+											<div class="content">
+												<h5 class="callout-title">Info:</h5>
+												<p>If you already have <b>image URLs</b> set up in CrossProm Configuration, you can just use <b>Fetch Images</b> button and instantly get all of your game icons. If you do this, naming will also be taken care of. This only skips step one, please follow other steps of importing textures!</p>
+											</div>
+											<!--//content-->
+										</div>
+										<!--//callout-block-->
+										<div class="callout-block callout-warning">
+											<div class="icon-holder">
+												<i class="fas fa-info-circle"></i>
+											</div>
+											<!--//icon-holder-->
+											<div class="content">
+												<h5 class="callout-title">Can I skip this?</h5>
+												<p>If you aren't using Offline version of CrossProm, you can skip this, however it is recommended to ship icons within the game, so players can have all of your game ads, as soon as they download the game.</p>
+											</div>
+											<!--//content-->
+										</div>
+										<!--//callout-block-->
+									</div>
+									<!--//section-block-->
+									<div id="crossprom_controller"  class="section-block">
+										<h4 class="block-title">CrossProm Controller</h4>
+										<p>Now that everything's configured, we need to tell CrossProm Controller, how to process all these data.</p>
+										<p>CrossProm Controller takes care of UI output as well. By default, CrossProm comes with 3 different prefabs, <code>CrossPromController, CrossPromController_Landscape and CrossPromController_Portrait</code>
+										<p>CrossPromController is for those, who would like to use their own UI. Other prefabs come with our UI, for LandScape and Portrait views. Please use one that suits you.<p>
+										<p>Locate version of CrossPromController Prefab at <code>Assets/Hagrid's Tools/CrossProm/Prefabs</code> and feel free to drag and drop it into your very first scene in build settings (Main Menu scene by default).</p>
+										<p>Now configure it:</p>
+										<div class="row">
+											<div class="col-md-6 col-12">
+												<ul>
+													<li><b>Disabled</b> - Disables the CrossProm.</li>
+													<li><b>Disable Auto Show</b> - Disables Auto Show feature. If you disable auto show, you will need to manually request a new ad within a script.</li>
+													<li><b>Offline Mode</b> - Disables updating option (useful if you can't host JSON file).</li>
+													<li><b>Weighted Random</b> - If enabled, you will be able to controll which ads to show more often.</li>
+													<li><b>Filter Installed Games </b> - If enabled, CrossProm won't show ads for already installed games. (Works only on Android)</li>
+													<li><b>Options Asset</b> - CrossProm Configuration should be selected here.</li>
+													<li><b>Timer Duration</b> - Timer for ad to show up (in seconds). X - Minimum value, Y - Maximum Value</li>
+													<li><b>Update Frequency</b> - How often should CrossProm update its data. (Value is for days. 0 if you want CrossProm to update data on every single launch)</li>
+													<li><b>Game Ad Duration</b> - This is timer on how long ad stays active.</li>
+													<li><b>Ad Game Object</b> - Parent object of whole game ad object should be selected here. It sets active that object.</li>
+													<li><b>Title</b> - This is output for Text canvas (outputs game's name)</li>
+													<li><b>Description</b> - Output for Text canvas (outputs game's description)</li>
+													<li><b>Image</b> - This is output for Image canvas (outputs game's icon)</li>
+													<li><b>Colorable Images</b> - All images in this list will be colored to Color Theme from Configuration</li>
+												</ul>
+											</div>
+											<div class="col-md-6 col-12">
+												<p><img src="https://docs.wildskullgames.com/assets/images/CrossProm/cross_prom_controller.png"></p>
+											</div>
+										</div>
+										<!--//row-ended-->
+										<div class="callout-block callout-info">
+											<div class="icon-holder">
+												<i class="fas fa-info-circle"></i>
+											</div>
+											<!--//icon-holder-->
+											<div class="content">
+												<h5 class="callout-title">Canvas Fields</h5>
+												<p>All Canvas output fields are optional. So you can output only what you like. You won't get any Null Reference exception, by leaving these fields empty.</p>
+											</div>
+											<!--//content-->
+										</div>
+										<!--//callout-block-->
+									</div>
+									<!--//section-block-->
+									<div id="showing_ad"  class="section-block">
+										<h4 class="block-title">Showing Ad</h4>
+										<p>Once everything is setup, you can show ad by calling <code>InvokeNewAd()</code> function. If you have Auto Ad Show disabled, you will need to call this function, every time you would like to show ads. Otherwise, ads will continue to show up after calling this function once.</p>
+										<p><pre class="line-numbers" data-line="4, 10-13"><code class="language-csharp">using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using HagridsTools.CrossProm; //Don't forget to include this
+
+public class DemoController : MonoBehaviour
+{
+    void Start()
+    {
+        if (CrossPromController.instance != null)
+        {
+            CrossPromController.instance.InvokeNewAd();
+        }
+    }
+}</code></pre></p>
+									</div>
+									<!--//section-block-->
+								</section>
+								<!--//doc-section-->
+								<section id="advanced-users-section" class="doc-section">
+									<h2 class="section-title">For advanced users</h2>
+									<div id="instant_ads"  class="section-block">
+										<h4 class="block-title">Instantly Showing Ad</h4>
+										<p>If you are using the Auto Ad Show, but also want to pop out an ad at specific times, you can force ad to show from the script. Please see the example down below.</p>
+										<p><pre class="line-numbers" data-line="4, 12"><code class="language-csharp">using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using HagridsTools.CrossProm; //Don't forget to include this
+
+public class DemoController : MonoBehaviour
+{
+    void Start()
+    {
+        if (CrossPromController.instance != null)
+        {
+            CrossPromController.instance.InvokeNewAd(true);
+        }
+    }
+}</code></pre></p>
+									</div>
+									<!--//section-block-->
+									<div id="disable_crossprom"  class="section-block">
+										<h4 class="block-title">Disabling CrossProm</h4>
+										<p>If you would like to disable CrossProm (maybe player bought No Ads, or whatever the reason may be), you can use following function:</p>
+										<p><pre class="line-numbers" data-line="4, 12"><code class="language-csharp">using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using HagridsTools.CrossProm; //Don't forget to include this
+
+public class DemoController : MonoBehaviour
+{
+    void Start()
+    {
+        if (CrossPromController.instance != null)
+        {
+            CrossPromController.instance.DisableCrossProm();
+        }
+    }
+}</code></pre></p>
+										<div class="callout-block callout-warning">
+											<div class="icon-holder">
+												<i class="fas fa-info-circle"></i>
+											</div>
+											<!--//icon-holder-->
+											<div class="content">
+												<h5 class="callout-title">Remember:</h5>
+												<p>After calling this, CrossProm is <b>ONLY</b> disabled from the current play session. You'll need to create custom If statement, that'll disable CrossProm on next launch.</p>
+											</div>
+											<!--//content-->
+										</div>
+										<!--//callout-block-->
+									</div>
+									<!--//section-block-->
+									<div id="gamead_structure"  class="section-block">
+										<h4 class="block-title">GameAd Structure</h4>
+										<p>GameAd is the main class, that holds information on the game. Here are all of its parameters.</p>
+										<p><pre class="line-numbers"><code class="language-csharp">public class GameAd
+{
+    public string m_Name;
+    public string m_Descirption;
+    public string m_AndroidUrl;
+    public string m_IOSUrl;
+    public string m_PackageID;
+    public string m_ImageUrl;
+    public string m_ColorTheme;
+    public AdWeight m_Probability;
+}</code></pre></p>
+									</div>
+									<!--//section-block-->
+									<div id="callbacks"  class="section-block">
+										<h4 class="block-title">Callbacks</h4>
+										<p>CrossProm does offer Callbacks for following events: <code>AdShow, Download Button Clicked, Ad Exited</code></p>
+										<p>To receive Callbacks, please subscribe to events as in the example down below</p>
+										<p><pre class="line-numbers" data-line="4, 14-16, 20-24, 26-30, 32-36"><code class="language-csharp">using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using HagridsTools.CrossProm; //Don't forget to use this
+
+public class DemoController : MonoBehaviour
+{
+    void Start()
+    {
+        if (CrossPromController.instance != null)
+        {
+            CrossPromController.instance.InvokeNewAd(); //This can be ignored, this is from previous script
+
+            CrossPromController.instance.Event_OnAdShow += TempEventShow;
+            CrossPromController.instance.Event_OnAdDownload += TempEventDownloadClick;
+            CrossPromController.instance.Event_OnAdQuit += TempEventQuit;
+        }
+    }
+
+    void TempEventShow(GameAd _Game)
+    {
+        //Do Something Here
+        Debug.Log("Showed ad for " + _Game.m_Name);
+    }
+
+    void TempEventDownloadClick(GameAd _Game)
+    {
+        //Do Something Here
+        Debug.Log("Download clicked on " + _Game.m_Name);
+    }
+
+    void TempEventQuit(GameAd _Game)
+    {
+        //Do Something here
+        Debug.Log("Ad quit for " + _Game.m_Name);
+    }
+}</code></pre></p>
+									</div>
+									<!--//section-block-->
+								</section>
+								<!--//doc-section-->
+							</div>
+							<!--//content-inner-->
+						</div>
+						<!--//doc-content-->
+						<div class="doc-sidebar col-md-3 col-12 order-0 d-none d-md-flex">
+							<div id="doc-nav" class="doc-nav">
+								<nav id="doc-menu" class="nav doc-menu flex-column sticky">
+									<a class="nav-link scrollto" href="#introduction-section">Introduction</a>
+									<a class="nav-link scrollto" href="#settingup-section">Setting Up</a>
+									<nav class="doc-sub-menu nav flex-column">
+										<a class="nav-link scrollto" href="#locating_options">Locating Options</a>
+										<a class="nav-link scrollto" href="#configuring_options">Configuring Options</a>
+										<a class="nav-link scrollto" href="#local_game_icons">Local Game Icons</a>
+										<a class="nav-link scrollto" href="#crossprom_controller">CrossProm Controller</a>
+										<a class="nav-link scrollto" href="#showing_ad">Showing Ad</a>
+									</nav>
+									<!--//nav-->
+									<a class="nav-link scrollto" href="#advanced-users-section">For Advanced Users</a>
+									<nav class="doc-sub-menu nav flex-column">
+										<a class="nav-link scrollto" href="#instant_ads">Instant Ad</a>
+										<a class="nav-link scrollto" href="#disable_crossprom">Disable CrossProm</a>
+										<a class="nav-link scrollto" href="#gamead_structure">GameAd Structure</a>
+										<a class="nav-link scrollto" href="#callbacks">Callbacks</a>
+									</nav>
+									<!--//nav-->
+								</nav>
+								<!--//doc-menu-->
+							</div>
+						</div>
+						<!--//doc-sidebar-->
+					</div>
+					<!--//doc-body-->              
+				</div>
+				<!--//container-->
+			</div>
+			<!--//doc-wrapper-->
+			<div id="promo-block" class="promo-block">
+				<div class="container">
+					<div class="promo-block-inner">
+						<h3 class="promo-title text-center">Thank you for choosing CrossProm!<br>Liked it? Or was it really bad experience?</h3>
+						<p>In any case we really want to know your feedback. If it was awesome, feel free to rate us on Asset Store.<br>
+						If you encoutered problems, please email us at <a href="mailto:support@wildskullgames.com">support@wildskullgames.com</a></p>
+					</div>
+					<!--//promo-block-inner-->  
+				</div>
+				<!--//container-->
+			</div>
+			<!--//promo-block-->
+		</div>
+		<!--//page-wrapper-->
+		<footer id="footer" class="footer text-center">
+			<div class="container">
+				<p id="copyright">
+					© <a href="https://wildskullgames.com">Wild Skull Games</a>
+					<script>document.write(new Date().getFullYear());</script>
+				</p>
+				<!-- Copyright Text -->
+			</div>
+			<!--//container-->
+		</footer>
+		<!--//footer-->
+		<!-- Main Javascript -->          
+		<script type="text/javascript" src="https://docs.wildskullgames.com/assets/plugins/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="https://docs.wildskullgames.com/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="https://docs.wildskullgames.com/assets/plugins/prism/prism.js"></script>    
+		<script type="text/javascript" src="https://docs.wildskullgames.com/assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script>      
+		<script type="text/javascript" src="https://docs.wildskullgames.com/assets/plugins/stickyfill/dist/stickyfill.min.js"></script>                                                             
+		<script type="text/javascript" src="https://docs.wildskullgames.com/assets/js/main.js"></script>
+	</body>
+</html>

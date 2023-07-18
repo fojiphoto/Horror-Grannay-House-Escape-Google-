@@ -1,0 +1,2149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2084544643240685369
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544643240685368}
+  m_Layer: 0
+  m_Name: WomanA L Toe0Nub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544643240685368
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544643240685369}
+  m_LocalRotation: {x: -2.254936e-15, y: 1.616036e-29, z: 1, w: 7.166659e-15}
+  m_LocalPosition: {x: -0.1107911, y: 0, z: 0}
+  m_LocalScale: {x: -1, y: -1, z: -1}
+  m_Children: []
+  m_Father: {fileID: 2084544644134622321}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 1.555143e-34, y: -2.583967e-13, z: -180}
+--- !u!1 &2084544643241965755
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544643241965754}
+  m_Layer: 0
+  m_Name: WomanA L Finger01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544643241965754
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544643241965755}
+  m_LocalRotation: {x: -0.000000023748726, y: 0.15493576, z: 0.000000044703484, w: 0.9879246}
+  m_LocalPosition: {x: -0.03200395, y: 7.901503e-10, z: 0.0000000149011}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2084544644949332104}
+  m_Father: {fileID: 2084544644226178622}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.000005122642, y: 3.404842e-15, z: -1.277864}
+--- !u!1 &2084544643262090181
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544643262090180}
+  m_Layer: 0
+  m_Name: WomanA talk mouth r01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544643262090180
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544643262090181}
+  m_LocalRotation: {x: 0.0730334, y: -0.1768152, z: 0.374712, w: 0.9071898}
+  m_LocalPosition: {x: -0.09057556, y: 0.05051848, z: -0.05134995}
+  m_LocalScale: {x: -1, y: -1, z: -1}
+  m_Children:
+  - {fileID: 2084544644898694223}
+  m_Father: {fileID: 2084544644678699696}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0.00004554026, y: 22.05787, z: -44.88585}
+--- !u!1 &2084544643264064318
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544643264064305}
+  m_Layer: 0
+  m_Name: WomanA L Finger1Nub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544643264064305
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544643264064318}
+  m_LocalRotation: {x: 0, y: 0, z: -0.000000007450581, w: 1}
+  m_LocalPosition: {x: -0.05333229, y: 0, z: 0.00000001907349}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2084544643679332423}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.0000008537737}
+--- !u!1 &2084544643357670905
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544643357670904}
+  m_Layer: 0
+  m_Name: WomanA talk lower lip02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544643357670904
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544643357670905}
+  m_LocalRotation: {x: -2.910384e-10, y: 2.602086e-17, z: -0.00000008940698, w: 1}
+  m_LocalPosition: {x: -0.04208679, y: -0.00000001907349, z: 0}
+  m_LocalScale: {x: 0.9999998, y: 0.9999998, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2084544643632973165}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.00000003335054, y: -9.478783e-23, z: 0.00001024529}
+--- !u!1 &2084544643362441680
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544643362441683}
+  m_Layer: 0
+  m_Name: WomanA Z_r01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544643362441683
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544643362441680}
+  m_LocalRotation: {x: -0.03058411, y: -0.03109962, z: -0.5756459, w: 0.8165349}
+  m_LocalPosition: {x: -0.102384, y: 0.05918567, z: -0.02991205}
+  m_LocalScale: {x: 0.7304752, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2084544643393320927}
+  m_Father: {fileID: 2084544644678699696}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: -0.8132744, y: 4.933478, z: 70.33158}
+--- !u!1 &2084544643364597341
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544643364597340}
+  m_Layer: 0
+  m_Name: WomanA talk mouth l02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544643364597340
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544643364597341}
+  m_LocalRotation: {x: 0.000000007450581, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.0641732, y: 0.0000001525879, z: 0.00000003814697}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2084544643444800816}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.0000008537737, y: 0, z: 0}
+--- !u!1 &2084544643366961150
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544643366961137}
+  m_Layer: 0
+  m_Name: WomanA R Hand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544643366961137
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544643366961150}
+  m_LocalRotation: {x: 0.68696904, y: 0.08366111, z: 0.06095546, w: 0.7192766}
+  m_LocalPosition: {x: -0.22809166, y: -0.000000004190948, z: 0.0000000051222697}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2084544643783046219}
+  - {fileID: 2084544644247387564}
+  m_Father: {fileID: 2084544644274528609}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 89.10954, y: 9.10152, z: -2.437481}
+--- !u!1 &2084544643393320924
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544643393320927}
+  m_Layer: 0
+  m_Name: WomanA Z_r02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544643393320927
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544643393320924}
+  m_LocalRotation: {x: 0.00000001001173, y: -0.0000000445646, z: 0.0000002816923,
+    w: 1}
+  m_LocalPosition: {x: -0.03536979, y: -0.0000009155273, z: -0.00000001192093}
+  m_LocalScale: {x: 0.4760885, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2084544643362441683}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.000001147258, y: 0.000005106727, z: -0.00003227956}
+--- !u!1 &2084544643425894748
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544643425894751}
+  m_Layer: 0
+  m_Name: WomanA R Finger01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544643425894751
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544643425894748}
+  m_LocalRotation: {x: 0.0000000949949, y: 0.04264763, z: -0.000000022351742, w: -0.9990902}
+  m_LocalPosition: {x: -0.03200399, y: 0.000000001907589, z: 0.000000004190951}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2084544644467385443}
+  m_Father: {fileID: 2084544643783046219}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.000001707547, y: -0.0000008537736, z: -1.277867}
+--- !u!1 &2084544643444800817
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544643444800816}
+  m_Layer: 0
+  m_Name: WomanA talk mouth l01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544643444800816
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544643444800817}
+  m_LocalRotation: {x: 0.192623, y: 0.07954002, z: 0.9038087, w: -0.3737642}
+  m_LocalPosition: {x: -0.09057556, y: 0.05051837, z: 0.05212171}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2084544643364597340}
+  m_Father: {fileID: 2084544644678699696}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: -0.01337873, y: 24.05711, z: 135.0627}
+--- !u!1 &2084544643446690548
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544643446690551}
+  m_Layer: 0
+  m_Name: WomanA Footsteps
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544643446690551
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544643446690548}
+  m_LocalRotation: {x: 0, y: 0, z: -0.7071064, w: 0.7071073}
+  m_LocalPosition: {x: 0, y: 0, z: -1.020673}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2084544644209301303}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 89.99992}
+--- !u!1 &2084544643481545359
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544643481545358}
+  - component: {fileID: 2084544643481545345}
+  m_Layer: 0
+  m_Name: Mom
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544643481545358
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544643481545359}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 9.877234, y: 6.75, z: 19.590916}
+  m_LocalScale: {x: 1.65, y: 1.65, z: 1.65}
+  m_Children:
+  - {fileID: 2084544644209301303}
+  - {fileID: 2084544644148397359}
+  - {fileID: 2084544644593853089}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &2084544643481545345
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544643481545359}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 67f766de0b3fac34aa5090a7c7209a95, type: 2}
+  m_Controller: {fileID: 9100000, guid: c4f43ab95e1e4db43955d42b8e867871, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &2084544643508208086
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544643508208041}
+  m_Layer: 0
+  m_Name: WomanA R Foot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544643508208041
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544643508208086}
+  m_LocalRotation: {x: 0.09204405, y: 0.020868922, z: 0.28193682, w: 0.95477957}
+  m_LocalPosition: {x: -0.41355735, y: 0.000000007450581, z: 0.000000022351742}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2084544645152269931}
+  m_Father: {fileID: 2084544644266147721}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 11.4469, y: 0.0701077, z: 9.67129}
+--- !u!1 &2084544643554294635
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544643554294634}
+  m_Layer: 0
+  m_Name: WomanA X_l01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544643554294634
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544643554294635}
+  m_LocalRotation: {x: 0.07480293, y: 0.04462238, z: -0.616045, w: 0.7828805}
+  m_LocalPosition: {x: -0.1108154, y: 0.01689612, z: 0.02768536}
+  m_LocalScale: {x: 0.8561148, y: 0.6063837, z: 0.654227}
+  m_Children:
+  - {fileID: 2084544645007072280}
+  m_Father: {fileID: 2084544644678699696}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 3.610702, y: -9.324856, z: 76.10352}
+--- !u!1 &2084544643579261195
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544643579261194}
+  - component: {fileID: 2084544643579261196}
+  - component: {fileID: 2084544643579261197}
+  m_Layer: 0
+  m_Name: WomanA EYE_L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544643579261194
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544643579261195}
+  m_LocalRotation: {x: 0.4451779, y: 0.5493784, z: -0.4451779, w: 0.5493784}
+  m_LocalPosition: {x: -0.1002666, y: 0.06655129, z: 0.02838715}
+  m_LocalScale: {x: -1.0387, y: -1.0387, z: -1.0387}
+  m_Children: []
+  m_Father: {fileID: 2084544644678699696}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 78.0378, y: -90, z: 0}
+--- !u!33 &2084544643579261196
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544643579261195}
+  m_Mesh: {fileID: 4300000, guid: b60d44b829394ad459136c7b5ef4ecad, type: 2}
+--- !u!23 &2084544643579261197
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544643579261195}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 4470be8e27aa90143a0dfccd8b592a43, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &2084544643582737808
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544643582737811}
+  m_Layer: 0
+  m_Name: WomanA L Foot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544643582737811
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544643582737808}
+  m_LocalRotation: {x: -0.10181628, y: -0.07636721, z: 0.19128934, w: 0.9732471}
+  m_LocalPosition: {x: -0.41355762, y: -0.000000014901161, z: -0.000000067055225}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2084544644134622321}
+  m_Father: {fileID: 2084544644815068335}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -11.4469, y: -0.07009775, z: 9.671289}
+--- !u!1 &2084544643632973162
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544643632973165}
+  m_Layer: 0
+  m_Name: WomanA talk lower lip01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544643632973165
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544643632973162}
+  m_LocalRotation: {x: 0.00000003404175, y: 0.00000002466463, z: 0.8252084, w: 0.5648283}
+  m_LocalPosition: {x: -0.1076571, y: 0.000001525879, z: 0.000000009536743}
+  m_LocalScale: {x: 0.7563573, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2084544643357670904}
+  m_Father: {fileID: 2084544644153401518}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.000004535672, y: 0.000001622646, z: -111.2193}
+--- !u!1 &2084544643679332420
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544643679332423}
+  m_Layer: 0
+  m_Name: WomanA L Finger11
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544643679332423
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544643679332420}
+  m_LocalRotation: {x: -0.0000006107123, y: -0.00000017895873, z: -0.65915316, w: 0.7520087}
+  m_LocalPosition: {x: -0.03449922, y: -0.000000002908059, z: 1.666072e-10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2084544643264064305}
+  m_Father: {fileID: 2084544644845716222}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.0000004268868, y: 0.0000008537736, z: 12.13869}
+--- !u!1 &2084544643755083950
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544643755083937}
+  m_Layer: 0
+  m_Name: WomanA Spine1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544643755083937
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544643755083950}
+  m_LocalRotation: {x: -0.0005322962, y: 0.00897779, z: 0.03167567, w: 0.9994577}
+  m_LocalPosition: {x: -0.101464756, y: -0.00021833238, z: -0.0003118262}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2084544645013366253}
+  m_Father: {fileID: 2084544645153601336}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -0.0000003871119, y: 0.00001108534, z: -3.999982}
+--- !u!1 &2084544643783046216
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544643783046219}
+  m_Layer: 0
+  m_Name: WomanA R Finger0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544643783046219
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544643783046216}
+  m_LocalRotation: {x: -0.09587724, y: -0.27062583, z: -0.013896983, w: -0.9577975}
+  m_LocalPosition: {x: -0.05025282, y: 0.01208375, z: 0.03944676}
+  m_LocalScale: {x: 0.9999999, y: 1, z: 0.9999996}
+  m_Children:
+  - {fileID: 2084544643425894751}
+  m_Father: {fileID: 2084544643366961137}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 47.829, y: -50.44753, z: 46.9445}
+--- !u!1 &2084544643795387230
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544643795387217}
+  m_Layer: 0
+  m_Name: WomanA Neck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544643795387217
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544643795387230}
+  m_LocalRotation: {x: -0.0026448844, y: -0.001326174, z: -0.06655977, w: 0.9977781}
+  m_LocalPosition: {x: -0.0724818, y: -0.024934081, z: -0.000000003754395}
+  m_LocalScale: {x: 0.9999999, y: 0.9999998, z: 0.9999999}
+  m_Children:
+  - {fileID: 2084544644678699696}
+  - {fileID: 2084544643837290639}
+  - {fileID: 2084544645001387487}
+  m_Father: {fileID: 2084544645321152405}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.00000002738625, y: -0.00004767751, z: 17.22446}
+--- !u!1 &2084544643837290636
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544643837290639}
+  m_Layer: 0
+  m_Name: WomanA L Clavicle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544643837290639
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544643837290636}
+  m_LocalRotation: {x: 0.8462279, y: 0.08987559, z: -0.51743895, w: -0.08987588}
+  m_LocalPosition: {x: -0.0029876335, y: -0.0052269367, z: 0.054568924}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2084544644102022514}
+  m_Father: {fileID: 2084544643795387217}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -24.40336, y: -75.26566, z: -173.5796}
+--- !u!1 &2084544643842964481
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544643842964480}
+  m_Layer: 0
+  m_Name: WomanA talk upper lip02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544643842964480
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544643842964481}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.02138321, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 2084544644689429208}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2084544643850836064
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544643850836067}
+  m_Layer: 0
+  m_Name: WomanA X_r02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544643850836067
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544643850836064}
+  m_LocalRotation: {x: 0.00000001851003, y: -0.00000001717791, z: -0.00000001092558,
+    w: 1}
+  m_LocalPosition: {x: -0.07626404, y: 0, z: 0.000000002384186}
+  m_LocalScale: {x: 0.6819391, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2084544644465153676}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.000002121094, y: 0.000001968444, z: 0.000001251979}
+--- !u!1 &2084544643888590485
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544643888590484}
+  m_Layer: 0
+  m_Name: WomanA R Toe0Nub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544643888590484
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544643888590485}
+  m_LocalRotation: {x: -1.776357e-15, y: -0.000000007450579, z: -3.552713e-15, w: 1}
+  m_LocalPosition: {x: -0.1107911, y: 1.490116e-10, z: 0.000000009536743}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2084544645152269931}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -2.035555e-13, y: 0.0000008537734, z: 4.071109e-13}
+--- !u!1 &2084544643902980552
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544643902980555}
+  - component: {fileID: 2084544643902980557}
+  - component: {fileID: 2084544643902980554}
+  m_Layer: 0
+  m_Name: WomanA EYE_R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544643902980555
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544643902980552}
+  m_LocalRotation: {x: 0.5493784, y: -0.4451779, z: -0.5493784, w: -0.4451779}
+  m_LocalPosition: {x: -0.1002667, y: 0.06655137, z: -0.02835266}
+  m_LocalScale: {x: 1.0387, y: 1.0387, z: 1.0387}
+  m_Children: []
+  m_Father: {fileID: 2084544644678699696}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -101.9622, y: -90, z: 0}
+--- !u!33 &2084544643902980557
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544643902980552}
+  m_Mesh: {fileID: 4300000, guid: e70804a38d0b4ff4bb65187c640df2f5, type: 2}
+--- !u!23 &2084544643902980554
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544643902980552}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 4470be8e27aa90143a0dfccd8b592a43, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &2084544643977332425
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544643977332424}
+  m_Layer: 0
+  m_Name: WomanA Z_l01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544643977332424
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544643977332425}
+  m_LocalRotation: {x: 0.03053522, y: 0.03114987, z: -0.5809948, w: 0.8127376}
+  m_LocalPosition: {x: -0.1023338, y: 0.05920315, z: 0.03174893}
+  m_LocalScale: {x: 0.7304751, y: 0.9999999, z: 1}
+  m_Children:
+  - {fileID: 2084544644327399792}
+  m_Father: {fileID: 2084544644678699696}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0.7728589, y: -4.940141, z: 71.08569}
+--- !u!1 &2084544644059118601
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544644059118600}
+  m_Layer: 0
+  m_Name: WomanA L Thigh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544644059118600
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544644059118601}
+  m_LocalRotation: {x: -0.21188052, y: 0.9754967, z: 0.054834783, w: 0.022495816}
+  m_LocalPosition: {x: 0.040830076, y: -0.022155402, z: 0.09334772}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2084544644815068335}
+  m_Father: {fileID: 2084544645153601336}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -179.7109, y: -0.05723832, z: 177.3937}
+--- !u!1 &2084544644102022515
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544644102022514}
+  m_Layer: 0
+  m_Name: WomanA L UpperArm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544644102022514
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544644102022515}
+  m_LocalRotation: {x: -0.42611343, y: 0.2337416, z: 0.28202122, w: 0.82719785}
+  m_LocalPosition: {x: -0.07012017, y: 0.000000016763792, z: -0.0000001713632}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2084544644913117845}
+  m_Father: {fileID: 2084544643837290639}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 1.027786, y: 48.93204, z: -3.194598}
+--- !u!1 &2084544644108173529
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544644108173528}
+  m_Layer: 0
+  m_Name: WomanA HeadNub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544644108173528
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544644108173529}
+  m_LocalRotation: {x: -1.776357e-14, y: -1.421085e-14, z: -2.524354e-28, w: 1}
+  m_LocalPosition: {x: -0.2052715, y: 0, z: -3.637979e-14}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2084544644678699696}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -2.035555e-12, y: 1.628444e-12, z: 6.896725e-34}
+--- !u!1 &2084544644134622334
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544644134622321}
+  m_Layer: 0
+  m_Name: WomanA L Toe0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544644134622321
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544644134622334}
+  m_LocalRotation: {x: -0.0000000047811044, y: 0.0000000074505726, z: 0.7071069, w: -0.7071066}
+  m_LocalPosition: {x: -0.18704377, y: 0.13423984, z: 0.000000025029294}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 1}
+  m_Children:
+  - {fileID: 2084544643240685368}
+  m_Father: {fileID: 2084544643582737811}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.000002504478, y: -0.0000008537738, z: 89.99999}
+--- !u!1 &2084544644148397356
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544644148397359}
+  - component: {fileID: 2084544644148397345}
+  - component: {fileID: 2084544644148397358}
+  m_Layer: 0
+  m_Name: WomanA BODY
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544644148397359
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544644148397356}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -0.02965005, y: 0.8529084, z: 0.03367973}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2084544643481545358}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!137 &2084544644148397345
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544644148397356}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 4470be8e27aa90143a0dfccd8b592a43, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: c8283cac1863bec46bb17a168371139e, type: 2}
+  m_Bones:
+  - {fileID: 2084544643508208041}
+  - {fileID: 2084544644266147721}
+  - {fileID: 2084544644424395141}
+  - {fileID: 2084544644059118600}
+  - {fileID: 2084544644243611088}
+  - {fileID: 2084544644815068335}
+  - {fileID: 2084544643582737811}
+  - {fileID: 2084544643366961137}
+  - {fileID: 2084544644274528609}
+  - {fileID: 2084544643783046219}
+  - {fileID: 2084544644948065046}
+  - {fileID: 2084544644247387564}
+  - {fileID: 2084544643425894751}
+  - {fileID: 2084544645095734993}
+  - {fileID: 2084544645013366253}
+  - {fileID: 2084544645321152405}
+  - {fileID: 2084544645001387487}
+  - {fileID: 2084544644102022514}
+  - {fileID: 2084544643837290639}
+  - {fileID: 2084544643795387217}
+  - {fileID: 2084544644678699696}
+  - {fileID: 2084544645153601336}
+  - {fileID: 2084544643755083937}
+  - {fileID: 2084544644153401518}
+  - {fileID: 2084544645007072280}
+  - {fileID: 2084544643364597340}
+  - {fileID: 2084544643357670904}
+  - {fileID: 2084544644327399792}
+  - {fileID: 2084544643842964480}
+  - {fileID: 2084544644898694223}
+  - {fileID: 2084544643850836067}
+  - {fileID: 2084544643393320927}
+  - {fileID: 2084544645287951517}
+  - {fileID: 2084544644913117845}
+  - {fileID: 2084544644845716222}
+  - {fileID: 2084544644226178622}
+  - {fileID: 2084544643241965754}
+  - {fileID: 2084544643679332423}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 2084544644243611088}
+  m_AABB:
+    m_Center: {x: 0.1427371, y: -0.0009086579, z: -0.0001268983}
+    m_Extent: {x: 0.8782561, y: 0.1462077, z: 0.4510902}
+  m_DirtyAABB: 0
+--- !u!65 &2084544644148397358
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544644148397356}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.9021808, y: 0.2924169, z: 1.756513}
+  m_Center: {x: 0.02977711, y: 0.01532537, z: 0.02427319}
+--- !u!1 &2084544644153401519
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544644153401518}
+  m_Layer: 0
+  m_Name: WomanA talk chin
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544644153401518
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544644153401519}
+  m_LocalRotation: {x: 0.004068538, y: 0.002654171, z: -0.8559514, w: 0.5170334}
+  m_LocalPosition: {x: -0.05750915, y: 0.01711282, z: 0.000000002998495}
+  m_LocalScale: {x: 0.8807083, y: 0.8807084, z: 0.8807081}
+  m_Children:
+  - {fileID: 2084544643632973165}
+  m_Father: {fileID: 2084544644678699696}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: -0.01928345, y: -0.5563239, z: 117.7323}
+--- !u!1 &2084544644209301300
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544644209301303}
+  m_Layer: 0
+  m_Name: WomanA Bip01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544644209301303
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544644209301300}
+  m_LocalRotation: {x: -0.5000004, y: 0.4999996, z: 0.4999996, w: 0.5000004}
+  m_LocalPosition: {x: 0, y: 1.0199183, z: 0.025672913}
+  m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 1}
+  m_Children:
+  - {fileID: 2084544643446690551}
+  - {fileID: 2084544644243611088}
+  m_Father: {fileID: 2084544643481545358}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90, y: -90, z: 0}
+--- !u!1 &2084544644226178623
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544644226178622}
+  m_Layer: 0
+  m_Name: WomanA L Finger0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544644226178622
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544644226178623}
+  m_LocalRotation: {x: 0.0039554075, y: 0.21355897, z: 0.13545258, w: -0.96748626}
+  m_LocalPosition: {x: -0.05025275, y: 0.01208374, z: -0.03944676}
+  m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 0.9999996}
+  m_Children:
+  - {fileID: 2084544643241965754}
+  m_Father: {fileID: 2084544645287951517}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -47.829, y: 50.44753, z: 46.9445}
+--- !u!1 &2084544644243611089
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544644243611088}
+  m_Layer: 0
+  m_Name: WomanA Pelvis
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544644243611088
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544644243611089}
+  m_LocalRotation: {x: 0.49362323, y: -0.50516725, z: -0.49967095, w: -0.5014691}
+  m_LocalPosition: {x: 0.02150565, y: -0.0016079168, z: 0.279967}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 0.9999999}
+  m_Children:
+  - {fileID: 2084544645153601336}
+  m_Father: {fileID: 2084544644209301303}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -89.99992, y: -90, z: 0}
+--- !u!1 &2084544644247387565
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544644247387564}
+  m_Layer: 0
+  m_Name: WomanA R Finger1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544644247387564
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544644247387565}
+  m_LocalRotation: {x: 0.023091285, y: -0.09864396, z: 0.6585507, w: -0.74568576}
+  m_LocalPosition: {x: -0.1028287, y: -0.001670468, z: -0.002352085}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 1}
+  m_Children:
+  - {fileID: 2084544644948065046}
+  m_Father: {fileID: 2084544643366961137}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 3.113425, y: 1.649102, z: 15.05389}
+--- !u!1 &2084544644266147766
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544644266147721}
+  m_Layer: 0
+  m_Name: WomanA R Calf
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544644266147721
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544644266147766}
+  m_LocalRotation: {x: 0.1613889, y: 0.0067328177, z: 0.33029956, w: 0.92995197}
+  m_LocalPosition: {x: -0.42413384, y: 0.000000005122274, z: 0.000000003725287}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 1}
+  m_Children:
+  - {fileID: 2084544643508208041}
+  m_Father: {fileID: 2084544644424395141}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.0000000500258, y: -0.00000002001032, z: -12.23168}
+--- !u!1 &2084544644274528622
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544644274528609}
+  m_Layer: 0
+  m_Name: WomanA R Forearm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544644274528609
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544644274528622}
+  m_LocalRotation: {x: 0.29799294, y: -0.05024749, z: 0.13684453, w: 0.94337106}
+  m_LocalPosition: {x: -0.26071906, y: -0.00000007450591, z: 0.00000017881425}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2084544643366961137}
+  m_Father: {fileID: 2084544645095734993}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -1.948298e-14, y: 0.000005122642, z: -7.649523}
+--- !u!1 &2084544644327399793
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544644327399792}
+  m_Layer: 0
+  m_Name: WomanA Z_l02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544644327399792
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544644327399793}
+  m_LocalRotation: {x: -0.00000001234004, y: 0.00000006797782, z: 0.0000003129914,
+    w: 1}
+  m_LocalPosition: {x: -0.03536991, y: -0.0000004577637, z: -0.000000004768371}
+  m_LocalScale: {x: 0.4760885, y: 1, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 2084544643977332424}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.000001414062, y: -0.000007789685, z: -0.00003586617}
+--- !u!1 &2084544644424395138
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544644424395141}
+  m_Layer: 0
+  m_Name: WomanA R Thigh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544644424395141
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544644424395138}
+  m_LocalRotation: {x: -0.07627241, y: 0.99325967, z: -0.08361731, w: -0.025019744}
+  m_LocalPosition: {x: 0.0408302, y: -0.02215488, z: -0.09334772}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2084544644266147721}
+  m_Father: {fileID: 2084544645153601336}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 179.7106, y: 0.05723388, z: 177.3937}
+--- !u!1 &2084544644465153677
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544644465153676}
+  m_Layer: 0
+  m_Name: WomanA X_r01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544644465153676
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544644465153677}
+  m_LocalRotation: {x: -0.03125046, y: -0.03176509, z: -0.6180151, w: 0.7849024}
+  m_LocalPosition: {x: -0.1108002, y: 0.01695056, z: -0.03041608}
+  m_LocalScale: {x: 0.8561147, y: 0.6063834, z: 0.654227}
+  m_Children:
+  - {fileID: 2084544643850836067}
+  m_Father: {fileID: 2084544644678699696}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: -0.5634036, y: 5.07683, z: 76.40727}
+--- !u!1 &2084544644467385440
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544644467385443}
+  m_Layer: 0
+  m_Name: WomanA R Finger0Nub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544644467385443
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544644467385440}
+  m_LocalRotation: {x: -2.220446e-16, y: -0.00000001490116, z: 1, w: 0.00000001490116}
+  m_LocalPosition: {x: -0.03594223, y: 0.00000007629394, z: 0}
+  m_LocalScale: {x: -1, y: -1, z: -0.9999999}
+  m_Children: []
+  m_Father: {fileID: 2084544643425894751}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.000001707547, y: 0, z: -180}
+--- !u!1 &2084544644593853102
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544644593853089}
+  m_Layer: 0
+  m_Name: wp (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544644593853089
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544644593853102}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.34389, y: 1.7418, z: 0.34389}
+  m_Children: []
+  m_Father: {fileID: 2084544643481545358}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2084544644678699697
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544644678699696}
+  m_Layer: 0
+  m_Name: WomanA Head
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544644678699696
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544644678699697}
+  m_LocalRotation: {x: -0.0019602214, y: 0.022879882, z: 0.30871204, w: 0.9508784}
+  m_LocalPosition: {x: -0.075185545, y: 0.000000007516064, z: 0.0000000051913958}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2084544643579261194}
+  - {fileID: 2084544643902980555}
+  - {fileID: 2084544644108173528}
+  - {fileID: 2084544644153401518}
+  - {fileID: 2084544643444800816}
+  - {fileID: 2084544643262090180}
+  - {fileID: 2084544644689429208}
+  - {fileID: 2084544643554294634}
+  - {fileID: 2084544644465153676}
+  - {fileID: 2084544643977332424}
+  - {fileID: 2084544643362441683}
+  m_Father: {fileID: 2084544643795387217}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.00001428814, y: 0.00002073905, z: -8.173615}
+--- !u!1 &2084544644689429209
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544644689429208}
+  m_Layer: 0
+  m_Name: WomanA talk upper lip01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544644689429208
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544644689429209}
+  m_LocalRotation: {x: 0.01506561, y: 0.01108773, z: 0.9773574, w: -0.2107667}
+  m_LocalPosition: {x: -0.06712952, y: 0.09871937, z: 0.001017242}
+  m_LocalScale: {x: 0.6510209, y: 0.6510209, z: 0.6510209}
+  m_Children:
+  - {fileID: 2084544643842964480}
+  m_Father: {fileID: 2084544644678699696}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0.8784719, y: 1.955473, z: 155.6761}
+--- !u!1 &2084544644815068332
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544644815068335}
+  m_Layer: 0
+  m_Name: WomanA L Calf
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544644815068335
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544644815068332}
+  m_LocalRotation: {x: -0.1344606, y: -0.025854103, z: 0.4531762, w: 0.8808424}
+  m_LocalPosition: {x: -0.4241341, y: -0.000000056810677, z: 0.000000014901161}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2084544643582737811}
+  m_Father: {fileID: 2084544644059118600}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.00000004919203, y: -1.014565e-16, z: -12.23168}
+--- !u!1 &2084544644845716223
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544644845716222}
+  m_Layer: 0
+  m_Name: WomanA L Finger1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544644845716222
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544644845716223}
+  m_LocalRotation: {x: 0.035906386, y: -0.041416865, z: -0.60414964, w: 0.7949834}
+  m_LocalPosition: {x: -0.1028286, y: -0.001670484, z: 0.002352047}
+  m_LocalScale: {x: 1, y: 0.9999998, z: 0.9999999}
+  m_Children:
+  - {fileID: 2084544643679332423}
+  m_Father: {fileID: 2084544645287951517}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -3.113425, y: -1.649103, z: 15.05388}
+--- !u!1 &2084544644852457112
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544644852457115}
+  m_Layer: 0
+  m_Name: WomanA R Finger1Nub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544644852457115
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544644852457112}
+  m_LocalRotation: {x: 1.387779e-17, y: 0.000000001862645, z: 1, w: 0.000000007450581}
+  m_LocalPosition: {x: -0.05333229, y: 0, z: -0.00000001907349}
+  m_LocalScale: {x: -1, y: -1, z: -1}
+  m_Children: []
+  m_Father: {fileID: 2084544644948065046}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.0000002134434, y: 0, z: -180}
+--- !u!1 &2084544644898694220
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544644898694223}
+  m_Layer: 0
+  m_Name: WomanA talk mouth r02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544644898694223
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544644898694220}
+  m_LocalRotation: {x: -0.000000007450582, y: 0.00000001490116, z: 0.00000002980232,
+    w: 1}
+  m_LocalPosition: {x: -0.0641732, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 2084544643262090180}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.0000008537738, y: -0.000001707547, z: -0.000003415095}
+--- !u!1 &2084544644913117842
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544644913117845}
+  m_Layer: 0
+  m_Name: WomanA L Forearm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544644913117845
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544644913117842}
+  m_LocalRotation: {x: -0.30810046, y: 0.059791565, z: 0.19511534, w: 0.9292089}
+  m_LocalPosition: {x: -0.26071894, y: -0.000000067055225, z: -0.00000016391263}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2084544645287951517}
+  m_Father: {fileID: 2084544644102022514}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.0000004268869, y: -0.000003415095, z: -7.649523}
+--- !u!1 &2084544644948065047
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544644948065046}
+  m_Layer: 0
+  m_Name: WomanA R Finger11
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544644948065046
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544644948065047}
+  m_LocalRotation: {x: 0.00000055115635, y: 0.00000022526864, z: 0.6510608, w: -0.7590256}
+  m_LocalPosition: {x: -0.03449923, y: 0.000000002908068, z: 1.852029e-10}
+  m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+  m_Children:
+  - {fileID: 2084544644852457115}
+  m_Father: {fileID: 2084544644247387564}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 12.13869}
+--- !u!1 &2084544644949332105
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544644949332104}
+  m_Layer: 0
+  m_Name: WomanA L Finger0Nub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544644949332104
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544644949332105}
+  m_LocalRotation: {x: 0, y: 0.000000007450581, z: 0, w: 1}
+  m_LocalPosition: {x: -0.03594223, y: -0.00000003814697, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2084544643241965754}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0.0000008537737, z: 0}
+--- !u!1 &2084544645001387484
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544645001387487}
+  m_Layer: 0
+  m_Name: WomanA R Clavicle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544645001387487
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544645001387484}
+  m_LocalRotation: {x: 0.85325044, y: 0.10938763, z: 0.49802822, w: 0.10938889}
+  m_LocalPosition: {x: -0.0029876134, y: -0.0052266326, z: -0.054569058}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2084544645095734993}
+  m_Father: {fileID: 2084544643795387217}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 24.40218, y: 75.26569, z: -173.5807}
+--- !u!1 &2084544645007072281
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544645007072280}
+  m_Layer: 0
+  m_Name: WomanA X_l02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544645007072280
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544645007072281}
+  m_LocalRotation: {x: 0.00000000372529, y: -0.00000003448387, z: 1.284624e-16, w: 1}
+  m_LocalPosition: {x: -0.076264, y: 0, z: 0}
+  m_LocalScale: {x: 0.681939, y: 1, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 2084544643554294634}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.0000004268868, y: 0.00000395156, z: -2.382386e-22}
+--- !u!1 &2084544645013366250
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544645013366253}
+  m_Layer: 0
+  m_Name: WomanA Spine2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544645013366253
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544645013366250}
+  m_LocalRotation: {x: -0.0014732899, y: 0.00027389545, z: 0.037502386, w: 0.9992955}
+  m_LocalPosition: {x: -0.071031116, y: -0.009260567, z: 0.00085206534}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2084544645321152405}
+  m_Father: {fileID: 2084544643755083937}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.000000006049415, y: -0.000001386785, z: 0.5000001}
+--- !u!1 &2084544645095735006
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544645095734993}
+  m_Layer: 0
+  m_Name: WomanA R UpperArm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544645095734993
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544645095735006}
+  m_LocalRotation: {x: 0.44629264, y: -0.19839503, z: 0.3043484, w: 0.817823}
+  m_LocalPosition: {x: -0.07012022, y: 0.000000020489079, z: 0.00000040978156}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2084544644274528609}
+  m_Father: {fileID: 2084544645001387487}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -1.027786, y: -48.93204, z: -3.194599}
+--- !u!1 &2084544645152269928
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544645152269931}
+  m_Layer: 0
+  m_Name: WomanA R Toe0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544645152269931
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544645152269928}
+  m_LocalRotation: {x: 0.0000000037168064, y: -0.0000000037252903, z: 0.7071066, w: -0.70710695}
+  m_LocalPosition: {x: -0.18704371, y: 0.1342398, z: -2.6193425e-10}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 1}
+  m_Children:
+  - {fileID: 2084544643888590484}
+  m_Father: {fileID: 2084544643508208041}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.000002504479, y: 0.0000008537737, z: 90}
+--- !u!1 &2084544645153601337
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544645153601336}
+  m_Layer: 0
+  m_Name: WomanA Spine
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544645153601336
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544645153601337}
+  m_LocalRotation: {x: -0.0000017732382, y: 0.00000093877316, z: -0.0003978759, w: 0.99999994}
+  m_LocalPosition: {x: -0.044398546, y: 0.013824696, z: -0.000000044703484}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 0.9999999}
+  m_Children:
+  - {fileID: 2084544644059118600}
+  - {fileID: 2084544644424395141}
+  - {fileID: 2084544643755083937}
+  m_Father: {fileID: 2084544644243611088}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.0002384366, y: -0.00007939449, z: 0.04562566}
+--- !u!1 &2084544645287951514
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544645287951517}
+  m_Layer: 0
+  m_Name: WomanA L Hand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544645287951517
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544645287951514}
+  m_LocalRotation: {x: 0.7146782, y: 0.015348806, z: -0.031831183, w: -0.6985602}
+  m_LocalPosition: {x: -0.22809167, y: -0.0000000032596261, z: 0.0000000123400135}
+  m_LocalScale: {x: 0.9999999, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2084544644226178622}
+  - {fileID: 2084544644845716222}
+  m_Father: {fileID: 2084544644913117845}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -89.10954, y: -9.101514, z: -2.437482}
+--- !u!1 &2084544645321152402
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544645321152405}
+  m_Layer: 0
+  m_Name: WomanA Spine3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544645321152405
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544645321152402}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.1563925, y: -0.0000608563, z: 0.00000001006992}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2084544643795387217}
+  m_Father: {fileID: 2084544645013366253}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 6.513776e-12, y: 8.14222e-13, z: 0}

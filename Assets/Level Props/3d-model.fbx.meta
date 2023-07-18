@@ -1,0 +1,500 @@
+fileFormatVersion: 2
+guid: 43873219fe30cb94c996cb5dd24a79c8
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: Algebra 2 Book and a Pen_001
+  - first:
+      1: 100004
+    second: BAUHAUS Book_001
+  - first:
+      1: 100006
+    second: book marihuana_001
+  - first:
+      1: 100008
+    second: Component#186_001
+  - first:
+      1: 100010
+    second: Component#187_001
+  - first:
+      1: 100012
+    second: Component#189_001
+  - first:
+      1: 100014
+    second: Component#190_001
+  - first:
+      1: 100016
+    second: Component#191_001
+  - first:
+      1: 100018
+    second: Component#192_001
+  - first:
+      1: 100020
+    second: Component#193_001
+  - first:
+      1: 100022
+    second: Component#194_001
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: Algebra 2 Book and a Pen_001
+  - first:
+      4: 400004
+    second: BAUHAUS Book_001
+  - first:
+      4: 400006
+    second: book marihuana_001
+  - first:
+      4: 400008
+    second: Component#186_001
+  - first:
+      4: 400010
+    second: Component#187_001
+  - first:
+      4: 400012
+    second: Component#189_001
+  - first:
+      4: 400014
+    second: Component#190_001
+  - first:
+      4: 400016
+    second: Component#191_001
+  - first:
+      4: 400018
+    second: Component#192_001
+  - first:
+      4: 400020
+    second: Component#193_001
+  - first:
+      4: 400022
+    second: Component#194_001
+  - first:
+      21: 2100000
+    second: dbl_Algebra 2 Book and a Pen_001
+  - first:
+      21: 2100002
+    second: dbl_Algebra 2 Book and a Pen_002
+  - first:
+      21: 2100004
+    second: dbl_Algebra 2 Book and a Pen_003
+  - first:
+      21: 2100006
+    second: dbl_Algebra 2 Book and a Pen_004
+  - first:
+      21: 2100008
+    second: dbl_Algebra 2 Book and a Pen_005
+  - first:
+      21: 2100010
+    second: dbl_Component#190_002
+  - first:
+      21: 2100012
+    second: dbl_Algebra 2 Book and a Pen_006
+  - first:
+      21: 2100014
+    second: dbl_Algebra 2 Book and a Pen_007
+  - first:
+      21: 2100016
+    second: No Name
+  - first:
+      21: 2100018
+    second: dbl_Component#191_001
+  - first:
+      21: 2100020
+    second: dbl_Component#191_002
+  - first:
+      21: 2100022
+    second: dbl_Component#194_001
+  - first:
+      21: 2100024
+    second: dbl_Component#194_002
+  - first:
+      21: 2100026
+    second: dbl_Component#190_001
+  - first:
+      21: 2100028
+    second: dbl_BAUHAUS Book_003
+  - first:
+      21: 2100030
+    second: dbl_book marihuana_001
+  - first:
+      21: 2100032
+    second: dbl_book marihuana_002
+  - first:
+      21: 2100034
+    second: dbl_book marihuana_003
+  - first:
+      21: 2100036
+    second: dbl_Component#187_001
+  - first:
+      21: 2100038
+    second: dbl_Component#187_002
+  - first:
+      21: 2100040
+    second: dbl_BAUHAUS Book_001
+  - first:
+      21: 2100042
+    second: dbl_BAUHAUS Book_002
+  - first:
+      21: 2100044
+    second: dbl_BAUHAUS Book_004
+  - first:
+      21: 2100046
+    second: dbl_BAUHAUS Book_005
+  - first:
+      21: 2100048
+    second: dbl_BAUHAUS Book_006
+  - first:
+      21: 2100050
+    second: dbl_BAUHAUS Book_007
+  - first:
+      21: 2100052
+    second: dbl_BAUHAUS Book_008
+  - first:
+      21: 2100054
+    second: dbl_BAUHAUS Book_009
+  - first:
+      21: 2100056
+    second: dbl_BAUHAUS Book_010
+  - first:
+      23: 2300000
+    second: Algebra 2 Book and a Pen_001
+  - first:
+      23: 2300002
+    second: BAUHAUS Book_001
+  - first:
+      23: 2300004
+    second: book marihuana_001
+  - first:
+      23: 2300006
+    second: Component#186_001
+  - first:
+      23: 2300008
+    second: Component#187_001
+  - first:
+      23: 2300010
+    second: Component#189_001
+  - first:
+      23: 2300012
+    second: Component#190_001
+  - first:
+      23: 2300014
+    second: Component#191_001
+  - first:
+      23: 2300016
+    second: Component#192_001
+  - first:
+      23: 2300018
+    second: Component#193_001
+  - first:
+      23: 2300020
+    second: Component#194_001
+  - first:
+      33: 3300000
+    second: Algebra 2 Book and a Pen_001
+  - first:
+      33: 3300002
+    second: BAUHAUS Book_001
+  - first:
+      33: 3300004
+    second: book marihuana_001
+  - first:
+      33: 3300006
+    second: Component#186_001
+  - first:
+      33: 3300008
+    second: Component#187_001
+  - first:
+      33: 3300010
+    second: Component#189_001
+  - first:
+      33: 3300012
+    second: Component#190_001
+  - first:
+      33: 3300014
+    second: Component#191_001
+  - first:
+      33: 3300016
+    second: Component#192_001
+  - first:
+      33: 3300018
+    second: Component#193_001
+  - first:
+      33: 3300020
+    second: Component#194_001
+  - first:
+      43: 4300000
+    second: Algebra 2 Book and a Pen_001
+  - first:
+      43: 4300002
+    second: Component#192_001
+  - first:
+      43: 4300004
+    second: Component#191_001
+  - first:
+      43: 4300006
+    second: Component#194_001
+  - first:
+      43: 4300008
+    second: Component#193_001
+  - first:
+      43: 4300010
+    second: Component#190_001
+  - first:
+      43: 4300012
+    second: Component#189_001
+  - first:
+      43: 4300014
+    second: book marihuana_001
+  - first:
+      43: 4300016
+    second: Component#186_001
+  - first:
+      43: 4300018
+    second: Component#187_001
+  - first:
+      43: 4300020
+    second: BAUHAUS Book_001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 6d0cc6b6ac84ec347bf255d8b58070e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Algebra 2 Book and a Pen_001
+    second: {fileID: 2100000, guid: b265cf8e855d4e84ab049380e34eace2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Algebra 2 Book and a Pen_002
+    second: {fileID: 2100000, guid: f513e8fa86311f343a341568d55bdad6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Algebra 2 Book and a Pen_003
+    second: {fileID: 2100000, guid: 74b08d8ee39f8994dac971b87f294cbb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Algebra 2 Book and a Pen_004
+    second: {fileID: 2100000, guid: d34e623c1ce67974b80ce491a1ffe382, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Algebra 2 Book and a Pen_005
+    second: {fileID: 2100000, guid: c6f9e89c8fb718840b83c0fd110fb014, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Algebra 2 Book and a Pen_006
+    second: {fileID: 2100000, guid: 283a2e23baa65574d994bd2e1837403d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Algebra 2 Book and a Pen_007
+    second: {fileID: 2100000, guid: 40282b711da64bf4e9709a07d17b4d1a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_BAUHAUS Book_001
+    second: {fileID: 2100000, guid: cb9fa8d71b60bf747b5174d468be3253, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_BAUHAUS Book_002
+    second: {fileID: 2100000, guid: 685b6c73daa9c8c48a669c77b5e36ad5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_BAUHAUS Book_003
+    second: {fileID: 2100000, guid: 82165a2d23f36f543bc1cda882937b29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_BAUHAUS Book_004
+    second: {fileID: 2100000, guid: a74edc10f48dd964cb21b4af7f19f8f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_BAUHAUS Book_005
+    second: {fileID: 2100000, guid: 8b0c862324829e24bbd5cc5d57fbbced, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_BAUHAUS Book_006
+    second: {fileID: 2100000, guid: 6feb6f76acb8519418b029497b468a59, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_BAUHAUS Book_007
+    second: {fileID: 2100000, guid: 0ca1638953a98ea4ea55589306de96ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_BAUHAUS Book_008
+    second: {fileID: 2100000, guid: 3b4bdcccf7046ac4495eecd2def36fcb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_BAUHAUS Book_009
+    second: {fileID: 2100000, guid: e5c81b3c2c5fc01469ba4d25c5b5a736, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_BAUHAUS Book_010
+    second: {fileID: 2100000, guid: 16e9e07da2756494eab1a337a21ccad4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Component#187_001
+    second: {fileID: 2100000, guid: 883c106bd3e79154490415b87609ae1c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Component#187_002
+    second: {fileID: 2100000, guid: 8d26dd5119389364b89cee60a9cba804, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Component#190_001
+    second: {fileID: 2100000, guid: 9cfe7b5fcbfdbde4fb569e7918d02e25, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Component#190_002
+    second: {fileID: 2100000, guid: 075a520977c71f744b6525956153f6d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Component#191_001
+    second: {fileID: 2100000, guid: a07e90f72fa187445a6a41063f309210, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Component#191_002
+    second: {fileID: 2100000, guid: 0eceaf208857b0a4a9241dc55def8b0c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Component#194_001
+    second: {fileID: 2100000, guid: 86b8b8766ed393d468eed6ccd46c5dcd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Component#194_002
+    second: {fileID: 2100000, guid: 96821a58633634d4b8e86cc49dd44f9c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_book marihuana_001
+    second: {fileID: 2100000, guid: 2649ce353c535c442b46d1d4a1c5a65c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_book marihuana_002
+    second: {fileID: 2100000, guid: 4046df5d113995f4da8be4d1d38305b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_book marihuana_003
+    second: {fileID: 2100000, guid: cb69ea37d7ad09849a654b1a07c01c46, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 1
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 0
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,681 @@
+fileFormatVersion: 2
+guid: 9b9e4301d43cd4244885a6878064aa8e
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: BezierCircle.003
+    100002: BezierCircle.005
+    100004: Circle
+    100006: Circle.000
+    100008: Circle.005
+    100010: Circle.006
+    100012: Circle.008
+    100014: Circle.009
+    100016: Circle.010
+    100018: Circle.014
+    100020: Circle.015
+    100022: Cube
+    100024: Cube.001
+    100026: Cube.003
+    100028: Cube.008
+    100030: Cube_1
+    100032: Cylinder
+    100034: HalfSmallWall
+    100036: //RootNode
+    100038: Plane
+    100040: Plane.001
+    100042: Plane.002
+    100044: Plane.003
+    100046: Plane.004
+    100048: Plane.006
+    100050: Plane.007
+    100052: Plane.008
+    100054: Plane.011
+    100056: Plane.013
+    100058: Plane.014
+    100060: Plane.015
+    100062: Plane.016
+    100064: Plane.017
+    100066: Plane.018
+    100068: Plane.019
+    100070: Plane.020
+    100072: Plane.021
+    100074: Plane.022
+    100076: Plane.024
+    100078: Plane.025
+    100080: Plane.026
+    100082: Plane.028
+    100084: Plane.029
+    100086: Plane.031
+    100088: Plane.032
+    100090: Plane.041
+    100092: Plane.042
+    100094: Plane.048
+    100096: Plane.050
+    100098: Point
+    100100: Point.001
+    100102: Point.002
+    100104: Roof
+    100106: SmallDoor
+    100108: Template.001
+    100110: Template.003
+    100112: Template.004
+    100114: Template.005
+    100116: Template.006
+    100118: Wallpaper
+    100120: Wallpaper.001
+    400000: BezierCircle.003
+    400002: BezierCircle.005
+    400004: Circle
+    400006: Circle.000
+    400008: Circle.005
+    400010: Circle.006
+    400012: Circle.008
+    400014: Circle.009
+    400016: Circle.010
+    400018: Circle.014
+    400020: Circle.015
+    400022: Cube
+    400024: Cube.001
+    400026: Cube.003
+    400028: Cube.008
+    400030: Cube_1
+    400032: Cylinder
+    400034: HalfSmallWall
+    400036: //RootNode
+    400038: Plane
+    400040: Plane.001
+    400042: Plane.002
+    400044: Plane.003
+    400046: Plane.004
+    400048: Plane.006
+    400050: Plane.007
+    400052: Plane.008
+    400054: Plane.011
+    400056: Plane.013
+    400058: Plane.014
+    400060: Plane.015
+    400062: Plane.016
+    400064: Plane.017
+    400066: Plane.018
+    400068: Plane.019
+    400070: Plane.020
+    400072: Plane.021
+    400074: Plane.022
+    400076: Plane.024
+    400078: Plane.025
+    400080: Plane.026
+    400082: Plane.028
+    400084: Plane.029
+    400086: Plane.031
+    400088: Plane.032
+    400090: Plane.041
+    400092: Plane.042
+    400094: Plane.048
+    400096: Plane.050
+    400098: Point
+    400100: Point.001
+    400102: Point.002
+    400104: Roof
+    400106: SmallDoor
+    400108: Template.001
+    400110: Template.003
+    400112: Template.004
+    400114: Template.005
+    400116: Template.006
+    400118: Wallpaper
+    400120: Wallpaper.001
+    2100000: Material.007
+    2100002: Material.008
+    2100004: Material.038
+    2100006: Material.037
+    2100008: Material.036
+    2100010: Material.042
+    2100012: Material.041
+    2100014: Material.043
+    2100016: Material.044
+    2100018: Material.045
+    2100020: Material.013
+    2100022: Material.040
+    2100024: Material.014
+    2100026: Material.035
+    2100028: Material.029
+    2100030: Material.048
+    2100032: Material.028
+    2100034: Material.027
+    2100036: Material.026
+    2100038: Material.025
+    2100040: Material.021
+    2100042: Material.050
+    2100044: Material.010
+    2100046: Material.032
+    2100048: Material.031
+    2100050: Material.020
+    2100052: Material.030
+    2100054: Material.022
+    2100056: Material.005
+    2100058: Material.018
+    2100060: Material.039
+    2100062: Material.049
+    2100064: Material.033
+    2100066: Material.012
+    2100068: Material.015
+    2100070: Material.009
+    2100072: Material.047
+    2100074: Material.023
+    2100076: Material.034
+    2100078: Material.006
+    2100080: Material.003
+    2100082: Material.011
+    2100084: Material.019
+    2100086: Material.024
+    2100088: Material.017
+    2100090: Material.016
+    2100092: Material.004
+    2100094: Material.002
+    2100096: Material.001
+    2300000: BezierCircle.003
+    2300002: BezierCircle.005
+    2300004: Circle
+    2300006: Circle.000
+    2300008: Circle.005
+    2300010: Circle.006
+    2300012: Circle.008
+    2300014: Circle.009
+    2300016: Circle.010
+    2300018: Circle.014
+    2300020: Circle.015
+    2300022: Cube
+    2300024: Cube.001
+    2300026: Cube.003
+    2300028: Cube.008
+    2300030: Cube_1
+    2300032: Cylinder
+    2300034: HalfSmallWall
+    2300036: Plane
+    2300038: Plane.001
+    2300040: Plane.002
+    2300042: Plane.003
+    2300044: Plane.004
+    2300046: Plane.006
+    2300048: Plane.007
+    2300050: Plane.008
+    2300052: Plane.011
+    2300054: Plane.013
+    2300056: Plane.014
+    2300058: Plane.015
+    2300060: Plane.016
+    2300062: Plane.017
+    2300064: Plane.018
+    2300066: Plane.019
+    2300068: Plane.020
+    2300070: Plane.021
+    2300072: Plane.022
+    2300074: Plane.024
+    2300076: Plane.025
+    2300078: Plane.026
+    2300080: Plane.028
+    2300082: Plane.029
+    2300084: Plane.031
+    2300086: Plane.032
+    2300088: Plane.041
+    2300090: Plane.042
+    2300092: Plane.048
+    2300094: Plane.050
+    2300096: Roof
+    2300098: SmallDoor
+    2300100: Template.001
+    2300102: Template.003
+    2300104: Template.004
+    2300106: Template.005
+    2300108: Template.006
+    2300110: Wallpaper
+    2300112: Wallpaper.001
+    3300000: BezierCircle.003
+    3300002: BezierCircle.005
+    3300004: Circle
+    3300006: Circle.000
+    3300008: Circle.005
+    3300010: Circle.006
+    3300012: Circle.008
+    3300014: Circle.009
+    3300016: Circle.010
+    3300018: Circle.014
+    3300020: Circle.015
+    3300022: Cube
+    3300024: Cube.001
+    3300026: Cube.003
+    3300028: Cube.008
+    3300030: Cube_1
+    3300032: Cylinder
+    3300034: HalfSmallWall
+    3300036: Plane
+    3300038: Plane.001
+    3300040: Plane.002
+    3300042: Plane.003
+    3300044: Plane.004
+    3300046: Plane.006
+    3300048: Plane.007
+    3300050: Plane.008
+    3300052: Plane.011
+    3300054: Plane.013
+    3300056: Plane.014
+    3300058: Plane.015
+    3300060: Plane.016
+    3300062: Plane.017
+    3300064: Plane.018
+    3300066: Plane.019
+    3300068: Plane.020
+    3300070: Plane.021
+    3300072: Plane.022
+    3300074: Plane.024
+    3300076: Plane.025
+    3300078: Plane.026
+    3300080: Plane.028
+    3300082: Plane.029
+    3300084: Plane.031
+    3300086: Plane.032
+    3300088: Plane.041
+    3300090: Plane.042
+    3300092: Plane.048
+    3300094: Plane.050
+    3300096: Roof
+    3300098: SmallDoor
+    3300100: Template.001
+    3300102: Template.003
+    3300104: Template.004
+    3300106: Template.005
+    3300108: Template.006
+    3300110: Wallpaper
+    3300112: Wallpaper.001
+    4300000: Template.004
+    4300002: Template.006
+    4300004: Circle.015
+    4300006: Plane.029
+    4300008: Plane.032
+    4300010: Plane.031
+    4300012: Plane.025
+    4300014: Circle.010
+    4300016: Plane.050
+    4300018: Plane.048
+    4300020: Plane.041
+    4300022: Plane.028
+    4300024: Plane.008
+    4300026: Circle.014
+    4300028: Plane.022
+    4300030: Plane.006
+    4300032: Circle
+    4300034: BezierCircle.005
+    4300036: Plane.024
+    4300038: Cube.003
+    4300040: Circle.009
+    4300042: Cube.008
+    4300044: Plane.026
+    4300046: BezierCircle.003
+    4300048: Cube_1
+    4300050: Circle.008
+    4300052: Plane.021
+    4300054: Plane.020
+    4300056: Plane.019
+    4300058: Circle.000
+    4300060: Plane.018
+    4300062: Plane.017
+    4300064: Plane.015
+    4300066: Plane.003
+    4300068: Plane.016
+    4300070: Plane.014
+    4300072: Plane.013
+    4300074: Circle.006
+    4300076: Cube
+    4300078: Plane.011
+    4300080: Template.003
+    4300082: Cube.001
+    4300084: Roof
+    4300086: Wallpaper.001
+    4300088: Cylinder
+    4300090: Template.005
+    4300092: Plane.042
+    4300094: Circle.005
+    4300096: Plane.007
+    4300098: Plane.004
+    4300100: Wallpaper
+    4300102: Plane.002
+    4300104: Template.001
+    4300106: Plane.001
+    4300108: HalfSmallWall
+    4300110: SmallDoor
+    4300112: Plane
+    10800000: Point
+    10800002: Point.001
+    10800004: Point.002
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: ee32446a8c7054f768d0a377c0c1483d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: 158952013b9cc47558638853dfa6dad3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.003
+    second: {fileID: 2100000, guid: 95fdefcd1a58d452d841d99c39fa8ae1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.004
+    second: {fileID: 2100000, guid: 7a3913fe278584a0198ba8a48b1458ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.005
+    second: {fileID: 2100000, guid: 6d1ffc87d6d98450784bad0277965868, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.006
+    second: {fileID: 2100000, guid: a9a99c2cc60254761aae303639d9bbe0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.007
+    second: {fileID: 2100000, guid: 16ed1a89727c74e8386c493dab9f3933, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.008
+    second: {fileID: 2100000, guid: 1e78d3f7b1fc04fdcb0ba15ef0654933, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.009
+    second: {fileID: 2100000, guid: d7b68f42bd6e447858cfe1aa5f644aea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.010
+    second: {fileID: 2100000, guid: ffca23bf9fa9c48719bb458d63f4d2b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.011
+    second: {fileID: 2100000, guid: 3568e2f3b4fee4cd8a3aac649e3e822f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.012
+    second: {fileID: 2100000, guid: badae1f9579c84d26902bac8122bd792, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.013
+    second: {fileID: 2100000, guid: 6f0d2cab4b16c46789eb96fbe4afc795, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.014
+    second: {fileID: 2100000, guid: dd7c1b2b304164862b45fca3c1d597ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.015
+    second: {fileID: 2100000, guid: 584ecbd0bc44541939c871c32f47a1ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.016
+    second: {fileID: 2100000, guid: 0488c84c4f6e447f8a257f34b84cfe8b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.017
+    second: {fileID: 2100000, guid: 27b60b45306f64bdcbd8b5a663458104, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.018
+    second: {fileID: 2100000, guid: 0488c84c4f6e447f8a257f34b84cfe8b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.019
+    second: {fileID: 2100000, guid: 0a4d18530f40541b399e0a4d42985da7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.020
+    second: {fileID: 2100000, guid: 310145e6b0c754308b922ba6f7970175, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.021
+    second: {fileID: 2100000, guid: d034917c555ee4bb8be586f043804cda, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.022
+    second: {fileID: 2100000, guid: 05fb7f31907ee47278f19d43e6292de1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.023
+    second: {fileID: 2100000, guid: e4c62a83d01c64031b3e894d92c9f6fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.024
+    second: {fileID: 2100000, guid: 763982f7244284737a5523c1fa19edd2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.025
+    second: {fileID: 2100000, guid: 027586768983b400ba3f3fef1c52c7b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.026
+    second: {fileID: 2100000, guid: 2b37db5650451406cbf54886deaed0eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.027
+    second: {fileID: 2100000, guid: 43f49076f3ecd490cba5aca33a69093a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.028
+    second: {fileID: 2100000, guid: c97beb135323648fa95c03c9b79acf79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.029
+    second: {fileID: 2100000, guid: e15530bd1146d4796b794a5b77b9f93c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.030
+    second: {fileID: 2100000, guid: ffca23bf9fa9c48719bb458d63f4d2b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.031
+    second: {fileID: 2100000, guid: 95fdefcd1a58d452d841d99c39fa8ae1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.032
+    second: {fileID: 2100000, guid: 3568e2f3b4fee4cd8a3aac649e3e822f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.033
+    second: {fileID: 2100000, guid: 1001dd112dcf54847887452cec58d5f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.034
+    second: {fileID: 2100000, guid: 33fcd41df110040cd8c314fd1c70b217, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.035
+    second: {fileID: 2100000, guid: 90100d768931b48f193a3571793f2130, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.036
+    second: {fileID: 2100000, guid: 6e6d219684762440686cc1362e9784e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.037
+    second: {fileID: 2100000, guid: 70bebd0d6b4704e47aaadc371d7b4ee5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.038
+    second: {fileID: 2100000, guid: 328b9d05073684de7887f24d3b291409, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.039
+    second: {fileID: 2100000, guid: 6d1ffc87d6d98450784bad0277965868, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.040
+    second: {fileID: 2100000, guid: 33fcd41df110040cd8c314fd1c70b217, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.041
+    second: {fileID: 2100000, guid: c6214be2211f841e8968ea1a49a2468a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.042
+    second: {fileID: 2100000, guid: 4b9c8ef56bd5041bfa7eef1483e86df0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.043
+    second: {fileID: 2100000, guid: d8cb84593dfda4a0e90e297230b9a6f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.044
+    second: {fileID: 2100000, guid: 1f639cd2659734759963635ca26173ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.045
+    second: {fileID: 2100000, guid: 852e7414d6dc148f6aa4d4b613024a3f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.047
+    second: {fileID: 2100000, guid: 238c28452ef7c4befa5606f0be0c846b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.048
+    second: {fileID: 2100000, guid: 3ae0d10f1f6f24098bc0cfde43730b99, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.049
+    second: {fileID: 2100000, guid: 33f08f43bc3fc472998262b7dd5b205b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.050
+    second: {fileID: 2100000, guid: f02d96f0d6d834f2cb2c853a0d960cec, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
