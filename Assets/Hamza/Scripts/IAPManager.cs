@@ -30,4 +30,5 @@ public class IAPManager : MonoBehaviour
   //  {
   //      Debug.Log("Purchase of product" + product.definition.id + "Failde due to" + reason);
   //  }
+
 }

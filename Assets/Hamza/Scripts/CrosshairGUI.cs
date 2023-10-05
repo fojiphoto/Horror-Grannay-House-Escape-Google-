@@ -1420,7 +1420,7 @@ public class CrosshairGUI : MonoBehaviour
         if (Ads == true)
         {
             NextButton.SetActive(true);
-            Advertisements.Instance.ShowInterstitial();
+            //Advertisements.Instance.ShowInterstitial();
             Debug.Log("Task Ad");
             Ads = false;
             Time.timeScale = 0;

@@ -14,8 +14,8 @@ namespace HagridsTools
             public void Start()
             {
                // CrossPromController.instance.m_AdGameObject.SetActive(true);
-                PlayerPrefs.SetInt("Time", 1);
-                CrossPromController.instance.InvokeNewAd();
+                //PlayerPrefs.SetInt("Time", 1);
+                //CrossPromController.instance.InvokeNewAd();
             }
         }
     }

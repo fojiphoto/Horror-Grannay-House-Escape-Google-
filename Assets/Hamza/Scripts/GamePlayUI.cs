@@ -170,28 +170,28 @@ public class GamePlayUI : MonoBehaviour
         // GameObject.FindGameObjectWithTag("Player").GetComponent<CrosshairGUI>().enabled = false;
         Player.GetComponent<CrosshairGUI>().enabled = false;
         Time.timeScale = 0;
-        if (PlayerPrefs.GetInt("RemoveAds") == 1)
-        {
-            Debug.Log("Ads has been Removed.");
-        }
-        else
-        {
-            Advertisements.Instance.ShowInterstitial();
-        }
+        //if (PlayerPrefs.GetInt("RemoveAds") == 1)
+        //{
+        //    Debug.Log("Ads has been Removed.");
+        //}
+        //else
+        //{
+        //    Advertisements.Instance.ShowInterstitial();
+        //}
     }
     public void OnFail()
     {
         Time.timeScale = 0;
       
         FailPanel.SetActive(true);
-        if (PlayerPrefs.GetInt("RemoveAds") == 1)
-        {
-            Debug.Log("Ads has been Removed.");
-        }
-        else
-        {
-            Advertisements.Instance.ShowInterstitial();
-        }
+        //if (PlayerPrefs.GetInt("RemoveAds") == 1)
+        //{
+        //    Debug.Log("Ads has been Removed.");
+        //}
+        //else
+        //{
+        //    Advertisements.Instance.ShowInterstitial();
+        //}
         
         //AS.PlayOneShot(LevelFailedSFX);
     }
@@ -201,14 +201,14 @@ public class GamePlayUI : MonoBehaviour
        
         CompletePanel.SetActive(true);
         AS.PlayOneShot(LevelCompleteSFX);
-        if (PlayerPrefs.GetInt("RemoveAds") == 1)
-        {
-            Debug.Log("Ads has been Removed.");
-        }
-        else
-        {
-            Advertisements.Instance.ShowInterstitial();
-        }
+        //if (PlayerPrefs.GetInt("RemoveAds") == 1)
+        //{
+        //    Debug.Log("Ads has been Removed.");
+        //}
+        //else
+        //{
+        //    Advertisements.Instance.ShowInterstitial();
+        //}
       
     }
 

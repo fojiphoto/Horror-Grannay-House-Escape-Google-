@@ -41,7 +41,7 @@ public class UI : MonoBehaviour
       
         Time.timeScale = 1;
 
-        Advertisements.Instance.Initialize();
+        //Advertisements.Instance.Initialize();
 
         AS = GetComponent<AudioSource>();
         if (PlayerPrefs.GetInt("Level") <= 0)
@@ -76,14 +76,14 @@ public class UI : MonoBehaviour
             PrivacyPanel.SetActive(false);
             MainMenuSFX.SetActive(true);
             MainMenu.SetActive(true);
-            if (PlayerPrefs.GetInt("RemoveAds") == 1)
-            {
-                Debug.Log("Ads has been Removed.");
-            }
-            else
-            {
-                Advertisements.Instance.ShowBanner(BannerPosition.TOP);
-            }
+            //if (PlayerPrefs.GetInt("RemoveAds") == 1)
+            //{
+            //    Debug.Log("Ads has been Removed.");
+            //}
+            //else
+            //{
+            //    Advertisements.Instance.ShowBanner(BannerPosition.TOP);
+            //}
         }
 
 
@@ -104,7 +104,7 @@ public class UI : MonoBehaviour
         PlayerPrefs.SetInt("PP",1);
         MainMenuSFX.SetActive(true);
         MainMenu.SetActive(true);
-        Advertisements.Instance.ShowBanner(BannerPosition.TOP);
+        //Advertisements.Instance.ShowBanner(BannerPosition.TOP);
     }
 
 
@@ -134,14 +134,14 @@ public class UI : MonoBehaviour
         AS.PlayOneShot(Click);
         ExitPanel.SetActive(true);
         MainMenu.SetActive(false);
-        if (PlayerPrefs.GetInt("RemoveAds") == 1)
-        {
-            Debug.Log("Ads has been Removed.");
-        }
-        else
-        {
-            Advertisements.Instance.ShowInterstitial();
-        }
+        //if (PlayerPrefs.GetInt("RemoveAds") == 1)
+        //{
+        //    Debug.Log("Ads has been Removed.");
+        //}
+        //else
+        //{
+        //    Advertisements.Instance.ShowInterstitial();
+        //}
        
     }
     public void OnYes()
@@ -173,15 +173,15 @@ public class UI : MonoBehaviour
         PlayerPrefs.SetInt("maindoorunlock", 0);
         Loading.SetActive(true);
         StartCoroutine(LoadScene());
-        if (PlayerPrefs.GetInt("RemoveAds") == 1)
-        {
-            Debug.Log("Ads has been Removed.");
-        }
-        else
-        {
-            Advertisements.Instance.ShowInterstitial();
-            Advertisements.Instance.HideBanner();
-        }
+        //if (PlayerPrefs.GetInt("RemoveAds") == 1)
+        //{
+        //    Debug.Log("Ads has been Removed.");
+        //}
+        //else
+        //{
+        //    Advertisements.Instance.ShowInterstitial();
+        //    Advertisements.Instance.HideBanner();
+        //}
        
     }
 
@@ -191,15 +191,15 @@ public class UI : MonoBehaviour
        // PlayerPrefs.SetInt("Level", x);
         Loading.SetActive(true);
         StartCoroutine(LoadScene());
-        if (PlayerPrefs.GetInt("RemoveAds") == 1)
-        {
-            Debug.Log("Ads has been Removed.");
-        }
-        else
-        {
-            Advertisements.Instance.ShowInterstitial();
-            Advertisements.Instance.HideBanner();
-        }
+        //if (PlayerPrefs.GetInt("RemoveAds") == 1)
+        //{
+        //    Debug.Log("Ads has been Removed.");
+        //}
+        //else
+        //{
+        //    Advertisements.Instance.ShowInterstitial();
+        //    Advertisements.Instance.HideBanner();
+        //}
 
     }
 
