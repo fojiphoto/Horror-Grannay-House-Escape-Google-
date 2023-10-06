@@ -20,7 +20,7 @@ public class CrosshairGUI : MonoBehaviour
 	private Rect m_crosshairRect;
 	private Ray playerAim;
 	private Camera playerCam;
-    public GameObject standpos, sitpos, sitbtn, standbtn, Map,Mappanel, Mapbtn, hidebtn, currenthideobj, houselight, fuseshock, libraryfire, tablefire, saveduncle, savedmom;
+    public GameObject standpos, sitpos, sitbtn, standbtn,letter, hidebtn, currenthideobj, houselight, fuseshock, libraryfire, tablefire, saveduncle, savedmom,gamepannel,mission;
     public bool hidden, mapchk, Fusechk;
 	[Space]
 	[Space]
@@ -251,10 +251,7 @@ public class CrosshairGUI : MonoBehaviour
 
 
     public bool Ads;
-
-
-	
-
+    public GameObject locked;
 
     private void Start()
 	{
@@ -292,7 +289,7 @@ public class CrosshairGUI : MonoBehaviour
 
         if (PlayerPrefs.GetInt("map") == 1)
         {
-            Mapbtn.SetActive(true);
+           // Mapbtn.SetActive(true);
         }
     }
 
@@ -837,8 +834,8 @@ public class CrosshairGUI : MonoBehaviour
 
         PlayerControls.SetActive(false);
         GetComponent<CrosshairGUI>().enabled = false;
-        Map.SetActive(true);
-        Mappanel.SetActive(true);
+        //Map.SetActive(true);
+        //Mappanel.SetActive(true);
 
     }
 
@@ -846,8 +843,8 @@ public class CrosshairGUI : MonoBehaviour
 
         PlayerControls.SetActive(true);
         GetComponent<CrosshairGUI>().enabled = true;
-        Map.SetActive(false);
-        Mappanel.SetActive(false);
+        //Map.SetActive(false);
+        //Mappanel.SetActive(false);
 
     }
 
@@ -864,7 +861,12 @@ public class CrosshairGUI : MonoBehaviour
 		}
 	}
 
-
+    public void letteroff()
+    {
+        letter.SetActive(false);
+        gamepannel.SetActive(true);
+        mission.SetActive(true);
+    }
 
     public void PickUp()
     {
@@ -911,8 +913,11 @@ public class CrosshairGUI : MonoBehaviour
             AS.PlayOneShot(PickupSFX);
             detectedobj.SetActive(false);
             PlayerPrefs.SetInt("map", 1);
-            Mapbtn.SetActive(true);
-            Invoke("OnComplete", 3f);
+            letter.SetActive(true);
+            gamepannel.SetActive(false);
+            mission.SetActive(false);
+           // Mapbtn.SetActive(true);
+            Invoke(nameof(letteroff), 9.5f);Invoke("OnComplete", 10f);
             mapchk = false;
 
         }
@@ -1037,8 +1042,8 @@ public class CrosshairGUI : MonoBehaviour
 
 		if (MainDoorAnim == true && PlayerPrefs.GetInt("maindoorunlock") ==1) 
 		{
-          
-           
+            locked.SetActive(false);
+            dummylock.SetActive(true);
             dummylock.AddComponent<Rigidbody>();
             GameObject.FindGameObjectWithTag("firstdoor").GetComponent<dooropener>().openercloser();
             AS.PlayOneShot(DoorSFX);
@@ -1407,9 +1412,9 @@ public class CrosshairGUI : MonoBehaviour
 	{
         AS.PlayOneShot(levelincrement);
         GamePlayUI.Instance.levelincrement();
-        CompleteTaskPanel.SetActive(true);
-        Player.SetActive(false);
-        Invoke("ShowAd",1.5f);
+       // CompleteTaskPanel.SetActive(true);
+       // Player.SetActive(false);
+        //Invoke("ShowAd",1.5f);
         
         
     }
