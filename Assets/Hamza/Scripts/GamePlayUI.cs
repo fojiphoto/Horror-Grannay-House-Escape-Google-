@@ -171,6 +171,7 @@ public class GamePlayUI : MonoBehaviour
 
     public void OnPause()
     {
+        //AdsManager.instance?.ShowInterstitialWithoutConditions();
         PausePanel.SetActive(true);
         // GameObject.FindGameObjectWithTag("Player").GetComponent<CrosshairGUI>().enabled = false;
         Player.GetComponent<CrosshairGUI>().enabled = false;
@@ -186,34 +187,19 @@ public class GamePlayUI : MonoBehaviour
     }
     public void OnFail()
     {
-        Time.timeScale = 0;
+       // AdsManager.instance?.ShowInterstitialWithoutConditions();
+        
       
         FailPanel.SetActive(true);
-        //if (PlayerPrefs.GetInt("RemoveAds") == 1)
-        //{
-        //    Debug.Log("Ads has been Removed.");
-        //}
-        //else
-        //{
-        //    Advertisements.Instance.ShowInterstitial();
-        //}
-        
-        //AS.PlayOneShot(LevelFailedSFX);
+       
     }
     public void OnComplete()
     {
-        Time.timeScale = 0;
+        
        
         CompletePanel.SetActive(true);
         AS.PlayOneShot(LevelCompleteSFX);
-        //if (PlayerPrefs.GetInt("RemoveAds") == 1)
-        //{
-        //    Debug.Log("Ads has been Removed.");
-        //}
-        //else
-        //{
-        //    Advertisements.Instance.ShowInterstitial();
-        //}
+      
       
     }
 
@@ -234,7 +220,7 @@ public class GamePlayUI : MonoBehaviour
 
         Time.timeScale = 1;
         PlayerPrefs.SetInt("Level", 0);
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
     }
 
     public void levelincrement() {
