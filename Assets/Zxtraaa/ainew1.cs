@@ -13,8 +13,8 @@ public class ainew1 : MonoBehaviour
 
     public GameObject[] Kids;
     public GameObject failcamera, fading;
-    public Text lifetext;
-    public int life;
+    //public Text lifetext;
+   // public int life;
 
     public void Start() {
         if (PlayerPrefs.GetInt("life") <= 1)
@@ -27,7 +27,7 @@ public class ainew1 : MonoBehaviour
             PlayerPrefs.SetInt("life", 5);
         }
 
-        life = PlayerPrefs.GetInt("life");
+       // life = PlayerPrefs.GetInt("life");
         //PlayerPrefs.SetInt("life", life);
     }
 
@@ -39,25 +39,6 @@ public class ainew1 : MonoBehaviour
         //this.gameObject.isStatic = true;
 
         //failcamera.GetComponent<Camera>().rect = new Rect(0f,0f,1f,1f);
-
-        
-
-        if (life < 2)
-        {
-
-            PlayerPrefs.SetInt("Level", 0);
-            PlayerPrefs.SetInt("life", 5);
-            lifetext.text = "All Lifes Gone, New Game!";
-
-        }
-        else {
-          
-           
-            life--;
-            PlayerPrefs.SetInt("life", life);
-            lifetext.text = "Lifes Left : " + PlayerPrefs.GetInt("life").ToString();
-           
-        }
         Invoke("newfail", 4f);
         fading.SetActive(true);
        fading.GetComponent<Animator>().Play("Fading");

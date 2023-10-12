@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: MeshBaker-Standard-LM-1-mat
-  m_Shader: {fileID: 10703, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: b87b26986b217994aab05012be42f63b, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords:
   - _DETAIL_MULX2
@@ -52,7 +52,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 826c3e50f280d8a47996d0b61f43fa69, type: 3}
+        m_Texture: {fileID: 2800000, guid: 1321d3429c9273848bec49faac51e40d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatCap:
+        m_Texture: {fileID: 2800000, guid: c5c1e9835df14bf4f9624be611e28ce0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -65,6 +69,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShineRamp:
+        m_Texture: {fileID: 2800000, guid: 335092ff97f53b44ca0cbc489ac0459d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
@@ -84,12 +92,15 @@ Material:
     - _GlossMapScale: 0.273
     - _Glossiness: 0.6
     - _GlossyReflections: 0
+    - _MatCapStrength: 1
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 0
     - _Parallax: 0.005
     - _QueueOffset: 0
     - _ReceiveShadows: 0
+    - _ScrollSpeed: 10
+    - _ShineStrength: 3.06
     - _Smoothness: 0
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1

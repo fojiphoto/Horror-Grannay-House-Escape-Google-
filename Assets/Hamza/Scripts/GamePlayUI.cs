@@ -29,7 +29,7 @@ public class GamePlayUI : MonoBehaviour
 
     public AudioClip LevelCompleteSFX;
     public AudioClip LevelFailedSFX;
-
+    public GameObject Level1cutscene;
     public bool checker = true;
     private void Awake()
     {
@@ -42,8 +42,10 @@ public class GamePlayUI : MonoBehaviour
     private void Start()
     {
         // Levels[PlayerPrefs.GetInt("Level")].SetActive(true);
-
-        
+        if (PlayerPrefs.GetInt("Level") == 0)
+        {
+            Level1cutscene.SetActive(true);
+        }
         OnPlay();
           //  
           //  PlayerControls.SetActive(true);
@@ -51,6 +53,7 @@ public class GamePlayUI : MonoBehaviour
         //ConsoliAds.Instance.LoadRewarded(3);
 
     }
+    
     private void Update()
     {
 
@@ -58,43 +61,45 @@ public class GamePlayUI : MonoBehaviour
         {
             if (PlayerPrefs.GetInt("Level") == 0)
             {
-                Instruction.ShowDlgBar("You are captured by the Scary Granny! Go, Find the House Map & 3 Keys to find your way out of this Horror Place.");
-                Debug.Log("heeeeeeeeeeeeeeeeeeee");
+                
+
+                Instruction.ShowDlgBar("find the Letter");
+
             }
             else if (PlayerPrefs.GetInt("Level") == 1)
             {
-                Instruction.ShowDlgBar("Now, you must find the First Spare Key to Enter the First Floor of the house!");
+                Instruction.ShowDlgBar(" Find Cutter to Break the Chain ");
 
 
             }
             else if (PlayerPrefs.GetInt("Level") == 2)
             {
-                Instruction.ShowDlgBar("You have entered the Main Floor but the Fuse is out. Fix the Electric Fuse in the Kitchen");
+                Instruction.ShowDlgBar("Confuse he Grimsy switch on the Juicer in the kitchen");
 
 
             }
 
             else if (PlayerPrefs.GetInt("Level") == 3)
             {
-                Instruction.ShowDlgBar("Now, find the Missing Radio to get some important news from it to get out of here!");
+                Instruction.ShowDlgBar("find the Phone  Call for Help!!");
 
 
             }
             else if (PlayerPrefs.GetInt("Level") == 4)
             {
-                Instruction.ShowDlgBar("Evil Granny has Cursed Spell Books in her Library. Get Lighter from kitchen & burn all her Books!");
+                Instruction.ShowDlgBar("complete the puzzel placed in the kitchen");
 
                 Mobile.SetActive(true);
             }
             else if (PlayerPrefs.GetInt("Level") == 5)
             {
-                Instruction.ShowDlgBar("From Radio, you heard that your Uncle is also been captured by Evil Granny. Save your Uncle in the main floor!");
+                Instruction.ShowDlgBar("Get the hammer from the main floor ");
 
 
             }
             else if (PlayerPrefs.GetInt("Level") == 6)
             {
-                Instruction.ShowDlgBar("There is a Secret Room in the Basement where the Second Key is hidden. Go & Search the Basement!");
+                Instruction.ShowDlgBar("Go into the sceret room find a baseball bat");
                 Frame.SetActive(false);
 
 
@@ -102,20 +107,20 @@ public class GamePlayUI : MonoBehaviour
             }
             else if (PlayerPrefs.GetInt("Level") == 7)
             {
-                Instruction.ShowDlgBar("There is a Secrect Room on top floor washroom's. Granny prisoned your Mom there, save Her now!");
+                Instruction.ShowDlgBar("Break the electric board in the bathroom");
 
 
             }
             else if (PlayerPrefs.GetInt("Level") == 8)
             {
-                Instruction.ShowDlgBar("The 3rd Key is in the Top left Corner Room. Go & Escape by gathering the Last Key!");
+                Instruction.ShowDlgBar("The escape Key is in the Top Floor Room");
 
 
             }
 
             else if (PlayerPrefs.GetInt("Level") == 9)
             {
-                Instruction.ShowDlgBar("Final Act, Evil Granny is Casting a Spell on you. So, you wouldn't Escape even with keys! Burn her!");
+                Instruction.ShowDlgBar("go to library room and run away");
 
 
             }
@@ -138,7 +143,7 @@ public class GamePlayUI : MonoBehaviour
     {
         Player.SetActive(true);
         PlayerControls.SetActive(true);
-
+        PlayerPrefs.SetInt("Level", 0);
          //   this.GetComponent<TimeBar>().enabled = true;
         Time.timeScale = 1f;
 
@@ -226,11 +231,10 @@ public class GamePlayUI : MonoBehaviour
     }
     public void OnRestart()
     {
-        FailPanel.SetActive(false);
-        Player.GetComponent<CrosshairGUI>().enabled = true;
+
         Time.timeScale = 1;
-        // Time.timeScale = 1;
-        // SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        PlayerPrefs.SetInt("Level", 0);
+        SceneManager.LoadScene(1);
     }
 
     public void levelincrement() {

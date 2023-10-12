@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class UI : MonoBehaviour
 {
-    public GameObject PrivacyPanel;
+    //public GameObject PrivacyPanel;
     public GameObject MainMenu;
     public GameObject ExitPanel;
     public GameObject LevelSelection;
@@ -73,7 +73,7 @@ public class UI : MonoBehaviour
 
         if (PlayerPrefs.GetInt("PP") == 1)
         {
-            PrivacyPanel.SetActive(false);
+            //PrivacyPanel.SetActive(false);
             MainMenuSFX.SetActive(true);
             MainMenu.SetActive(true);
             //if (PlayerPrefs.GetInt("RemoveAds") == 1)
@@ -100,7 +100,7 @@ public class UI : MonoBehaviour
     public void OnAccept()
     {
         AS.PlayOneShot(Click);
-        PrivacyPanel.SetActive(false);
+       // PrivacyPanel.SetActive(false);
         PlayerPrefs.SetInt("PP",1);
         MainMenuSFX.SetActive(true);
         MainMenu.SetActive(true);
@@ -117,12 +117,12 @@ public class UI : MonoBehaviour
     public void OnPrivacy()
     {
         AS.PlayOneShot(Click);
-        Application.OpenURL("https://codexlayer.blogspot.com/2020/08/code-x-layer-privacy-policy-codexlayer.html");
+        Application.OpenURL("https://cbgprivacypolicy.blogspot.com/2023/02/privacy-policy.html");
     }
     public void OnMoreGames()
     {
         AS.PlayOneShot(Click);
-       Application.OpenURL("https://play.google.com/store/apps/dev?id=6696507953413740214");
+       Application.OpenURL("https://play.google.com/store/apps/developer?id=CrossBox+Games");
     }
     public void OnRateUs()
     {

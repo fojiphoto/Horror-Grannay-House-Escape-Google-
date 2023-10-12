@@ -3,7 +3,63 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - dd
+  - map
+  - FuseBox
+  - door
+  - bomb
+  - keythree
+  - cupboarddoor
+  - firstdoor
+  - hide
+  - lighter
+  - Emerald AI
+  - KeyPad
+  - spawn
+  - Fuse
+  - bathroomblind
+  - key
+  - bombplayer
+  - FuseInventory
+  - breaktv
+  - Door
+  - hammer
+  - laptop
+  - books
+  - radio
+  - playerstick
+  - uncle
+  - burnarea
+  - scissorplayer
+  - keytwo
+  - drawer
+  - hammerdraw
+  - scissor
+  - book
+  - mobileplayer
+  - throwlighter
+  - hammerplayer
+  - scredriver
+  - mobile
+  - playermarker
+  - throwmobile
+  - stick
+  - photo
+  - mom
+  - pizza
+  - tablemarker
+  - homeoutpoint
+  - throwbomb
+  - dress
+  - pic1
+  - pic2
+  - pic3
+  - pic4
+  - pic1place
+  - bat
+  - electricbox
+  - librarydoor
   layers:
   - Default
   - TransparentFX

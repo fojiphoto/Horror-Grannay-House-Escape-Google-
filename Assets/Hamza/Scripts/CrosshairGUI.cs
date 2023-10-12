@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityStandardAssets.Characters.FirstPerson;
+using UnityEngine.UI;
 
 public class CrosshairGUI : MonoBehaviour
 {
@@ -20,7 +21,7 @@ public class CrosshairGUI : MonoBehaviour
 	private Rect m_crosshairRect;
 	private Ray playerAim;
 	private Camera playerCam;
-    public GameObject standpos, sitpos, sitbtn, standbtn,letter, hidebtn, currenthideobj, houselight, fuseshock, libraryfire, tablefire, saveduncle, savedmom,gamepannel,mission;
+    public GameObject standpos, sitpos, sitbtn, standbtn,letter, hidebtn, currenthideobj, houselight,  libraryfire, tablefire, saveduncle, savedmom,gamepannel,mission;
     public bool hidden, mapchk, Fusechk;
 	[Space]
 	[Space]
@@ -68,7 +69,7 @@ public class CrosshairGUI : MonoBehaviour
 	public GameObject UnlockMainDoorTextBox;
 
 	public GameObject KeyToFind;
-	public GameObject PlayerHandKey, PlayerFuse;
+	public GameObject PlayerHandKey;
     public GameObject dummylock;
 
 	[Space]
@@ -238,7 +239,7 @@ public class CrosshairGUI : MonoBehaviour
 
 
 
-    public bool Door,dd;
+    public bool Door,librarydoor,dd;
 
     public GameObject detecteddoor, detecteddrawer, detectedbathdoor, detectedobj;
 
@@ -247,15 +248,21 @@ public class CrosshairGUI : MonoBehaviour
 
     public GameObject CompleteTaskPanel;
     public GameObject NextButton;
-
-
+    public GameObject pic1, pic2, pic3, pic4, playerpic1, playerpic2, playerpic3, playerpic4, playerhammer, playerbat, cutscenelevel3, cutscenelevel4, fuseobj, cutscenelevel6, drawer,cutscenelevel10;
+    public bool picadd1=false, picadd2=false, picadd3=false, picadd4=false, addpic1=false,addpic2=false,addpic3=false,addpic4=false,pic1a=false,pica2=false,pica3=false,pica4=false,batbool=false,destroybox=false;
+    public Text text;
+    int count = 0, secretdoor = 0;
 
     public bool Ads;
-    public GameObject locked;
+    public GameObject locked, Granny;
 
     private void Start()
 	{
-		AS = GetComponent<AudioSource>();
+        
+
+        
+        
+        AS = GetComponent<AudioSource>();
 
         Ads = true;
 
@@ -292,10 +299,22 @@ public class CrosshairGUI : MonoBehaviour
            // Mapbtn.SetActive(true);
         }
     }
+    public void completelevel5()
+    {
+        addpic1 = false;
+        Invoke(nameof(OnComplete), 3f);
+    }
 
     void Update()
 
     {
+        
+        
+        if (addpic1 == true && addpic2 == true && addpic3 == true && addpic4 == true)
+        {
+            completelevel5();
+        }
+       
         playerCam = Camera.main;
         Ray playerAim = playerCam.GetComponent<Camera>().ViewportPointToRay(new Vector3(0.5f, 0.5f, 0));
         RaycastHit hit;
@@ -304,6 +323,69 @@ public class CrosshairGUI : MonoBehaviour
         if (Physics.Raycast(playerAim, out hit, RayLength))
 
         {
+            if (hit.collider.gameObject.tag == "elecricbox"&&batbool==true)
+            {
+                detectedobj = hit.collider.gameObject;
+                destroybox = true;
+                openbtn.SetActive(true);
+
+            }
+            if (hit.collider.gameObject.tag == "pic1")
+            {
+                detectedobj= hit.collider.gameObject;
+                picadd1 = true;
+                openbtn.SetActive(true); 
+
+            }
+            if (hit.collider.gameObject.tag == "pic1place"&& pic1a==true)
+            {
+                
+                addpic1 = true;
+                openbtn.SetActive(true);
+
+            }
+            if (hit.collider.gameObject.tag == "pic2")
+            {
+                detectedobj= hit.collider.gameObject;
+                picadd2 = true;
+                openbtn.SetActive(true); 
+
+            }
+            if (hit.collider.gameObject.tag == "pic1place"&& pica2==true)
+            {
+                
+                addpic2 = true;
+                openbtn.SetActive(true);
+
+            }
+            if (hit.collider.gameObject.tag == "pic3")
+            {
+                detectedobj= hit.collider.gameObject;
+                picadd3 = true;
+                openbtn.SetActive(true); 
+
+            }
+            if (hit.collider.gameObject.tag == "pic1place"&& pica3==true)
+            {
+                
+                addpic3 = true;
+                openbtn.SetActive(true);
+
+            }
+            if (hit.collider.gameObject.tag == "pic4")
+            {
+                detectedobj= hit.collider.gameObject;
+                picadd4 = true;
+                openbtn.SetActive(true); 
+
+            }
+            if (hit.collider.gameObject.tag == "pic1place"&& pica4==true)
+            {
+                
+                addpic4 = true;
+                openbtn.SetActive(true);
+
+            }
             //Debug.Log(hit.collider.gameObject);
 
             if (hit.collider.gameObject.tag == "Untagged" || hit.collider.gameObject == null)
@@ -385,7 +467,7 @@ public class CrosshairGUI : MonoBehaviour
                 m_UseReticle = true;
                 Fusechk = true;
                 detectedobj = hit.collider.gameObject;
-                pickbtn.SetActive(true);
+                openbtn.SetActive(true);
             }
             if (hit.collider.gameObject.tag == "radio")
             {
@@ -450,7 +532,8 @@ public class CrosshairGUI : MonoBehaviour
 				m_DefaultReticle = false;
 				m_UseReticle = true;
 				OnlyMainDoor = true;
-				if (PlayerPrefs.GetInt("maindoorunlock") == 2)
+               
+                if (PlayerPrefs.GetInt("maindoorunlock") == 2)
 				{
 					MainDoorAnim = true;
                     openbtn.SetActive(true);
@@ -698,23 +781,38 @@ public class CrosshairGUI : MonoBehaviour
 
 
             if (hit.collider.gameObject.tag == "door")
-			{
-
-				m_DefaultReticle = false;
-				m_UseReticle = true;
-				Door = true;
-                detecteddoor = hit.collider.gameObject;
-               
-                openbtn.SetActive(true);
-
-            }
-            if (hit.collider.gameObject.tag == "dd")
             {
 
                 m_DefaultReticle = false;
                 m_UseReticle = true;
+                Door = true;
+
+                detecteddoor = hit.collider.gameObject;
+
+                openbtn.SetActive(true);
+
+            }
+            if (hit.collider.gameObject.tag == "librarydoor")
+            {
+
+                m_DefaultReticle = false;
+                m_UseReticle = true;
+                librarydoor = true;
+
+                detecteddoor = hit.collider.gameObject;
+
+                openbtn.SetActive(true);
+
+            }
+            if (hit.collider.gameObject.tag == "dd")
+            { 
+                 playerhammer.SetActive(false);
+                m_DefaultReticle = false;
+                m_UseReticle = true;
                 dd = true;
+                
                 detecteddrawer = hit.collider.gameObject;
+               
 
                 openbtn.SetActive(true);
 
@@ -876,13 +974,21 @@ public class CrosshairGUI : MonoBehaviour
 
             if (detectedobj.tag == "radio")
             {
+                Granny.SetActive(false);
+                cutscenelevel4.SetActive(true);
                 AS.PlayOneShot(PickupSFX);
                 detectedobj.SetActive(false);
-                Invoke("OnComplete", 3f);
+                text.text +="find hammer" ;
+                PlayerPrefs.SetString("missiontext", text.text);
+                Invoke("OnComplete", 30f);
             }
             else if (detectedobj.tag == "keytwo") {
-
+                batbool = true;
+                playerbat.SetActive(true);
                 AS.PlayOneShot(PickupSFX);
+
+                text.text += "\n Break the fuse box in kitchen";
+                PlayerPrefs.SetString("missiontext", text.text);
                 detectedobj.SetActive(false);
                 Invoke("OnComplete", 3f);
             }
@@ -903,7 +1009,8 @@ public class CrosshairGUI : MonoBehaviour
 			PlayerHandKey.SetActive(true);
 			PlayerKey = true;
 			MainDoorText = false;
-			PlayerPrefs.SetInt("maindoorunlock", 1);
+          
+            PlayerPrefs.SetInt("maindoorunlock", 1);
 
 		}
 
@@ -916,16 +1023,18 @@ public class CrosshairGUI : MonoBehaviour
             letter.SetActive(true);
             gamepannel.SetActive(false);
             mission.SetActive(false);
-           // Mapbtn.SetActive(true);
+           
+            // Mapbtn.SetActive(true);
             Invoke(nameof(letteroff), 9.5f);Invoke("OnComplete", 10f);
             mapchk = false;
 
         }
         if (Fusechk == true)
         {
+            
             AS.PlayOneShot(PickupSFX);
             detectedobj.SetActive(false);
-            PlayerFuse.SetActive(true);
+           // PlayerFuse.SetActive(true);
             Playerfusebool = true;
             Fusechk = false;
 
@@ -942,7 +1051,7 @@ public class CrosshairGUI : MonoBehaviour
 			AS.PlayOneShot(PickupSFX);
 			DrawHammer.SetActive(false);
 			PlayerHammer.SetActive(true);
-			PlayerPrefs.SetInt("Hammer", 1);
+            Invoke(nameof(OnComplete), 3f);
 		}
 
 
@@ -1032,7 +1141,10 @@ public class CrosshairGUI : MonoBehaviour
     }
 
 
-
+    public void ondrawer()
+    {
+        drawer.SetActive(true);
+    }
     public void PerformAction()
 	{
 
@@ -1062,10 +1174,76 @@ public class CrosshairGUI : MonoBehaviour
             
             GameObject.FindGameObjectWithTag("firstdoor").GetComponent<dooropener>().openercloser();
             AS.PlayOneShot(DoorSFX);
+           
+        }
+        if (destroybox == true)
+        {
+            OnComplete();
         }
 
         //  Level One End       ..........................................................................
-
+        if (picadd1 == true)
+        {
+            pic1a = true;
+            detectedobj.SetActive(false);
+            playerpic1.SetActive(true);
+        }
+        if (Fusechk == true)
+        {
+            cutscenelevel3.SetActive(true);
+            Fusechk = false;
+            Playerfusebool = false;
+            detectedobj.SetActive(false);
+            fuseobj.SetActive(true);
+           
+            Invoke(nameof(OnComplete), 3f);
+        }
+        if (addpic1 == true)
+        {
+            pic1a = false;
+            playerpic1.SetActive(false);
+            pic1.SetActive(true);
+            picadd1 = false;
+        }
+        if (picadd2 == true)
+        {
+            pica2 = true;
+            detectedobj.SetActive(false);
+            playerpic2.SetActive(true);
+        }
+        if (addpic2 == true)
+        {
+            pica2 = false;
+            playerpic2.SetActive(false);
+            pic2.SetActive(true);
+            picadd2 = false;
+        }
+        if (picadd3 == true)
+        {
+            pica3 = true;
+            detectedobj.SetActive(false);
+            playerpic3.SetActive(true);
+        }
+        if (addpic3 == true)
+        {
+            pica3 = true;
+            playerpic3.SetActive(false);
+            pic3.SetActive(true);
+            picadd3 = false;
+        }
+          if (picadd4 == true)
+        {
+            pica4 = true;
+            detectedobj.SetActive(false);
+            playerpic4.SetActive(true);
+        }
+        if (addpic4 == true)
+        {
+            pica4 = false;
+            playerpic4.SetActive(false);
+            pic4.SetActive(true);
+            picadd4 = false;
+        }
 
         /// Level 2 Start ..................................................................................
 
@@ -1171,12 +1349,12 @@ public class CrosshairGUI : MonoBehaviour
         if (!(detectedobj == null))
         {
 
-            if (detectedobj.tag == "FuseBox" && Playerfusebool == true)
+            if (detectedobj.tag == "FuseBox" && batbool == true)
             {
                 AS.PlayOneShot(SmashLaptopSFX);
-                PlayerFuse.SetActive(false);
-                fuseshock.SetActive(true);
-                houselight.GetComponent<Light>().intensity = 0.8f;
+                //PlayerFuse.SetActive(false);
+                //fuseshock.SetActive(true);
+                houselight.GetComponent<Light>().intensity = 0.4f;
                 PlayerPrefs.SetInt("light", 1);
                 Playerfusebool = false;
                 detectedobj = null;
@@ -1198,10 +1376,14 @@ public class CrosshairGUI : MonoBehaviour
                 detectedobj.SetActive(false);
                 saveduncle.SetActive(true);
                 detectedobj = null;
-                Invoke("OnComplete", 3f);
+                cutscenelevel6.SetActive(true);
+                drawer.SetActive(false);
+               
+                Invoke("OnComplete", 7f); Invoke("ondrawer", 6.7f);
             }
             else if (detectedobj.tag == "mom")
             {
+                playerbat.SetActive(false);
                 AS.PlayOneShot(PickupSFX);
                 detectedobj.SetActive(false);
                 savedmom.SetActive(true);
@@ -1232,6 +1414,26 @@ public class CrosshairGUI : MonoBehaviour
            
             AS.PlayOneShot(DoorSFX);
 		}
+        if (librarydoor == true && PlayerPrefs.GetInt("Level") == 9)
+        {
+            //   detecteddoor.GetComponent<Animator>().enabled = true;
+            //  detecteddoor.GetComponent<Animator>().Play("door");
+
+            detecteddoor.GetComponent<dooropener>().openercloser();
+            cutscenelevel10.SetActive(true);
+            AS.PlayOneShot(DoorSFX);
+            Invoke(nameof(OnComplete), 20f);
+        }
+        if (librarydoor == true )
+        {
+            //   detecteddoor.GetComponent<Animator>().enabled = true;
+            //  detecteddoor.GetComponent<Animator>().Play("door");
+
+            detecteddoor.GetComponent<dooropener>().openercloser();
+
+            AS.PlayOneShot(DoorSFX);
+            
+        }
 
         else if (dd == true)
         {
@@ -1405,7 +1607,12 @@ public class CrosshairGUI : MonoBehaviour
         PlayerControls.SetActive(false);
         Invoke("OnComplete", 13.0f);
     }
+    public void letterof()
+    {
+        letteroff();
+        Invoke("OnComplete", 3.0f);
 
+    }
    
 
     public void OnComplete()
