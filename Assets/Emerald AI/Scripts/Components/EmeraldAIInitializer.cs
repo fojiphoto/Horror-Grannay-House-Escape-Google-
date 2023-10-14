@@ -138,7 +138,7 @@ namespace EmeraldAI.Utility
                         EmeraldComponent.BehaviorRef != EmeraldAISystem.CurrentBehavior.Companion && EmeraldComponent.BehaviorRef != EmeraldAISystem.CurrentBehavior.Pet)
                     {
                         EmeraldComponent.AIRenderer.gameObject.AddComponent<VisibilityCheck>();
-                        GetComponentInChildren<VisibilityCheck>().EmeraldComponent = GetComponentInChildren<EmeraldAISystem>();
+                       // GetComponentInChildren<VisibilityCheck>().EmeraldComponent = GetComponentInChildren<EmeraldAISystem>();
                     }
                     else if (EmeraldComponent.AIRenderer != null && EmeraldComponent.UseDeactivateDelayRef == EmeraldAISystem.YesOrNo.Yes &&
                         EmeraldComponent.BehaviorRef != EmeraldAISystem.CurrentBehavior.Companion && EmeraldComponent.BehaviorRef != EmeraldAISystem.CurrentBehavior.Pet)

@@ -11,7 +11,7 @@ public class splashhandler : MonoBehaviour
     }
     public void showbanner()
     {
-       // AdsManager.instance?.ShowBanner();
+        AdsManager.instance?.ShowBanner();
     }
     // Start is called before the first frame update
     void Start()

@@ -171,7 +171,7 @@ public class GamePlayUI : MonoBehaviour
 
     public void OnPause()
     {
-        //AdsManager.instance?.ShowInterstitialWithoutConditions();
+        AdsManager.instance?.ShowInterstitialWithoutConditions();
         PausePanel.SetActive(true);
         // GameObject.FindGameObjectWithTag("Player").GetComponent<CrosshairGUI>().enabled = false;
         Player.GetComponent<CrosshairGUI>().enabled = false;
@@ -187,7 +187,7 @@ public class GamePlayUI : MonoBehaviour
     }
     public void OnFail()
     {
-       // AdsManager.instance?.ShowInterstitialWithoutConditions();
+        AdsManager.instance?.ShowInterstitialWithoutConditions();
         
       
         FailPanel.SetActive(true);

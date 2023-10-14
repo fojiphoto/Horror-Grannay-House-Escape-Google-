@@ -1,34 +1,444 @@
 {
   "project_info": {
-    "project_number": "1097788838248",
-    "project_id": "coin-sort-a2d1c",
-    "storage_bucket": "coin-sort-a2d1c.appspot.com"
+    "project_number": "301924103303",
+    "project_id": "cross-box-games",
+    "storage_bucket": "cross-box-games.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1097788838248:android:0bb184e30b99c5b196c6dd",
+        "mobilesdk_app_id": "1:301924103303:android:322482f7ba3ce8328cf422",
         "android_client_info": {
-          "package_name": "com.og.coinsort"
+          "package_name": "com.adventure.roleplaying.games"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1097788838248-ok5rfp3u5gacs3ucjas5ihfmvgnji5ni.apps.googleusercontent.com",
+          "client_id": "301924103303-3ftq947kige5jkg27qat0le2lv92dpn6.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBUvWoUzz9Vvo5Wi4p6U_BHvVqrLcF0uQQ"
+          "current_key": "AIzaSyC_9qHoO_4FIugym2zvVFIDQvPh4bTm7lw"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1097788838248-ok5rfp3u5gacs3ucjas5ihfmvgnji5ni.apps.googleusercontent.com",
+              "client_id": "301924103303-3ftq947kige5jkg27qat0le2lv92dpn6.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "301924103303-flg3ljotter8hu791jkmp4r352s3c970.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.pirate.runner.stack.games"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301924103303:android:2955d65a52786f0e8cf422",
+        "android_client_info": {
+          "package_name": "com.cbg.adventure.horror"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "301924103303-3ftq947kige5jkg27qat0le2lv92dpn6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_9qHoO_4FIugym2zvVFIDQvPh4bTm7lw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "301924103303-3ftq947kige5jkg27qat0le2lv92dpn6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "301924103303-flg3ljotter8hu791jkmp4r352s3c970.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.pirate.runner.stack.games"
+              }
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-8035849541939283~2121549461"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301924103303:android:cbce3f62922398b98cf422",
+        "android_client_info": {
+          "package_name": "com.cbg.flying.superhero.monster.truck"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "301924103303-3ftq947kige5jkg27qat0le2lv92dpn6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_9qHoO_4FIugym2zvVFIDQvPh4bTm7lw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "301924103303-3ftq947kige5jkg27qat0le2lv92dpn6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "301924103303-flg3ljotter8hu791jkmp4r352s3c970.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.pirate.runner.stack.games"
+              }
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-8035849541939283~5962419256"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301924103303:android:424fd769e39718cb8cf422",
+        "android_client_info": {
+          "package_name": "com.cbg.horror.games"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "301924103303-3ftq947kige5jkg27qat0le2lv92dpn6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_9qHoO_4FIugym2zvVFIDQvPh4bTm7lw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "301924103303-3ftq947kige5jkg27qat0le2lv92dpn6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "301924103303-flg3ljotter8hu791jkmp4r352s3c970.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.pirate.runner.stack.games"
+              }
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-8035849541939283~1109923496"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301924103303:android:535c5f7890cabb728cf422",
+        "android_client_info": {
+          "package_name": "com.cbg.monstertruck.gtstunt.truckgames"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "301924103303-3ftq947kige5jkg27qat0le2lv92dpn6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_9qHoO_4FIugym2zvVFIDQvPh4bTm7lw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "301924103303-3ftq947kige5jkg27qat0le2lv92dpn6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "301924103303-flg3ljotter8hu791jkmp4r352s3c970.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.pirate.runner.stack.games"
+              }
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-8035849541939283~3298867552"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301924103303:android:b8ea19f2aabfe5898cf422",
+        "android_client_info": {
+          "package_name": "com.cbg.rickshaw.games.tuktukgames.games"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "301924103303-3ftq947kige5jkg27qat0le2lv92dpn6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_9qHoO_4FIugym2zvVFIDQvPh4bTm7lw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "301924103303-3ftq947kige5jkg27qat0le2lv92dpn6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "301924103303-flg3ljotter8hu791jkmp4r352s3c970.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.pirate.runner.stack.games"
+              }
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-8035849541939283~2807939580"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301924103303:android:9add1bfa7e282d958cf422",
+        "android_client_info": {
+          "package_name": "com.cbg.shoottheball"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "301924103303-3ftq947kige5jkg27qat0le2lv92dpn6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_9qHoO_4FIugym2zvVFIDQvPh4bTm7lw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "301924103303-3ftq947kige5jkg27qat0le2lv92dpn6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "301924103303-flg3ljotter8hu791jkmp4r352s3c970.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.pirate.runner.stack.games"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301924103303:android:1fd0ffd4e8ae28b98cf422",
+        "android_client_info": {
+          "package_name": "com.cbg.slimesort"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "301924103303-3ftq947kige5jkg27qat0le2lv92dpn6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_9qHoO_4FIugym2zvVFIDQvPh4bTm7lw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "301924103303-3ftq947kige5jkg27qat0le2lv92dpn6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "301924103303-flg3ljotter8hu791jkmp4r352s3c970.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.pirate.runner.stack.games"
+              }
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-8035849541939283~3491667884"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301924103303:android:80661fe58b4f125d8cf422",
+        "android_client_info": {
+          "package_name": "com.cbg.white.tiger.family.life.survival.game"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "301924103303-3ftq947kige5jkg27qat0le2lv92dpn6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_9qHoO_4FIugym2zvVFIDQvPh4bTm7lw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "301924103303-3ftq947kige5jkg27qat0le2lv92dpn6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "301924103303-flg3ljotter8hu791jkmp4r352s3c970.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.pirate.runner.stack.games"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301924103303:android:e978953ee51faa818cf422",
+        "android_client_info": {
+          "package_name": "com.pirate.runner.stack.games"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "301924103303-3ftq947kige5jkg27qat0le2lv92dpn6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_9qHoO_4FIugym2zvVFIDQvPh4bTm7lw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "301924103303-3ftq947kige5jkg27qat0le2lv92dpn6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "301924103303-flg3ljotter8hu791jkmp4r352s3c970.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.pirate.runner.stack.games"
+              }
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-8035849541939283~1835134616"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301924103303:android:320c019914a5ac048cf422",
+        "android_client_info": {
+          "package_name": "com.robo.robot.wargames"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "301924103303-3ftq947kige5jkg27qat0le2lv92dpn6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_9qHoO_4FIugym2zvVFIDQvPh4bTm7lw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "301924103303-3ftq947kige5jkg27qat0le2lv92dpn6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "301924103303-flg3ljotter8hu791jkmp4r352s3c970.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.pirate.runner.stack.games"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301924103303:android:466dd35a888095c18cf422",
+        "android_client_info": {
+          "package_name": "com.soundgames.crushergames.diysatisfying"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "301924103303-3ftq947kige5jkg27qat0le2lv92dpn6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_9qHoO_4FIugym2zvVFIDQvPh4bTm7lw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "301924103303-3ftq947kige5jkg27qat0le2lv92dpn6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "301924103303-flg3ljotter8hu791jkmp4r352s3c970.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.pirate.runner.stack.games"
+              }
             }
           ]
         }

@@ -222,7 +222,7 @@ public class AdsManager : MonoBehaviour
         MaxSdkCallbacks.MRec.OnAdRevenuePaidEvent += OnMRecAdRevenuePaidEvent;
 
         // MRECs are automatically sized to 300x250.
-        MaxSdk.CreateMRec(RecID, MaxSdkBase.AdViewPosition.Centered);
+        MaxSdk.CreateMRec(RecID, MaxSdkBase.AdViewPosition.CenterLeft);
     }
 
     public void ShowMRec()

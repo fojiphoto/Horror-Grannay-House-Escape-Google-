@@ -127,7 +127,7 @@ public class UI : MonoBehaviour
     public void OnRateUs()
     {
         AS.PlayOneShot(Click);
-        Application.OpenURL("https://play.google.com/store/apps/details?id=com.codexlayer.horror.scary.granny.house.escape");
+        Application.OpenURL("https://play.google.com/store/apps/details?id=com.cbg.adventure.horror");
     }
     public void OnExit()
     {
