@@ -167,7 +167,7 @@ public class UI : MonoBehaviour
     {
         AS.PlayOneShot(Click);
         PlayerPrefs.SetInt("life", 5);
-        PlayerPrefs.SetInt("Level", x);
+        PlayerPrefs.SetInt("Level", PlayerPrefs.GetInt("Level"));
         PlayerPrefs.SetInt("map", 0);
         PlayerPrefs.SetInt("light", 0);
         PlayerPrefs.SetInt("maindoorunlock", 0);

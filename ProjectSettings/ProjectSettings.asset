@@ -247,7 +247,7 @@ PlayerSettings:
   AndroidTargetDevices: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: '{inproject}: Assets/keystore/CrossBoxGames_KS (2).keystore'
+  AndroidKeystoreName: G:/KeyStores/CBGKeyStore/CBG.keystore
   AndroidKeyaliasName: crossboxgames
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0
@@ -730,7 +730,7 @@ PlayerSettings:
   webGLDecompressionFallback: 0
   scriptingDefineSymbols:
     Android: CROSS_PLATFORM_INPUT;MOBILE_INPUT;EMERALD_AI_PRESENT;CF_FORCE_MOBILE_MODE
-    Standalone: CROSS_PLATFORM_INPUT
+    Standalone: CROSS_PLATFORM_INPUT;EMERALD_AI_PRESENT
     Windows Store Apps: CF_FORCE_MOBILE_MODE
     iPhone: CROSS_PLATFORM_INPUT;MOBILE_INPUT;CF_FORCE_MOBILE_MODE
   additionalCompilerArguments: {}

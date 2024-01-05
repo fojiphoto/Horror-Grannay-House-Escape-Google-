@@ -29,7 +29,9 @@ public class adsmanager : MonoBehaviour
         {
             promptActive = false;
             textPrompt.gameObject.SetActive(false);
-            AdsManager.instance?.ShowInterstitialWithoutConditions();
+            //nadeem
+            CASAds.instance.ShowInterstitial();
+           // AdsManager.instance?.ShowInterstitialWithoutConditions();
            
             time = 0; // Reset the timer
         }

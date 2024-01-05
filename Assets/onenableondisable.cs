@@ -6,10 +6,14 @@ public class onenableondisable : MonoBehaviour
 {
     private void OnEnable()
     {
-        AdsManager.instance?.ShowMRec();
+        //nadeem
+        CASAds.instance.ShowMrecBanner(CAS.AdPosition.BottomLeft);
+        //AdsManager.instance?.ShowMRec();
     }
     private void OnDisable()
     {
-        AdsManager.instance?.HideMRec();
+        //nadeem
+        CASAds.instance.HideMrecBanner();
+        //AdsManager.instance?.HideMRec();
     }
 }

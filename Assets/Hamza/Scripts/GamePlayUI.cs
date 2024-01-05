@@ -33,14 +33,19 @@ public class GamePlayUI : MonoBehaviour
     public bool checker = true;
     private void Awake()
     {
+        PlayerPrefs.GetInt("Level");
+        Debug.Log("Level number is "+ PlayerPrefs.GetInt("Level"));
         Instance = this;
         Time.timeScale = 1;
         Application.targetFrameRate = 60;
         AS = GetComponent<AudioSource>();
+       
     }
 
     private void Start()
     {
+        //Player.transform.position = SpawnManager.Instance.pos.transform.position;
+        //SpawnManager.Instance.LoadPos();
         // Levels[PlayerPrefs.GetInt("Level")].SetActive(true);
         if (PlayerPrefs.GetInt("Level") == 0)
         {
@@ -64,57 +69,59 @@ public class GamePlayUI : MonoBehaviour
                 
 
                 Instruction.ShowDlgBar("find the Letter");
+                //SpawnManager.Instance.SavedPostion();
 
             }
             else if (PlayerPrefs.GetInt("Level") == 1)
             {
                 Instruction.ShowDlgBar(" Find Cutter to Break the Chain ");
+                //SpawnManager.Instance.SavedPostion();
 
 
             }
             else if (PlayerPrefs.GetInt("Level") == 2)
             {
                 Instruction.ShowDlgBar("Confuse he Grimsy switch on the Juicer in the kitchen");
-
+                //SpawnManager.Instance.SavedPostion();
 
             }
 
             else if (PlayerPrefs.GetInt("Level") == 3)
             {
                 Instruction.ShowDlgBar("find the Phone  Call for Help!!");
-
+                //SpawnManager.Instance.SavedPostion();
 
             }
             else if (PlayerPrefs.GetInt("Level") == 4)
             {
                 Instruction.ShowDlgBar("complete the puzzel placed in the kitchen");
-
+                //SpawnManager.Instance.SavedPostion();
                 Mobile.SetActive(true);
             }
             else if (PlayerPrefs.GetInt("Level") == 5)
             {
                 Instruction.ShowDlgBar("Get the hammer from the main floor ");
-
+                //SpawnManager.Instance.SavedPostion();
 
             }
             else if (PlayerPrefs.GetInt("Level") == 6)
             {
                 Instruction.ShowDlgBar("Go into the sceret room find a baseball bat");
                 Frame.SetActive(false);
-
+                //SpawnManager.Instance.SavedPostion();
 
                 Mobile.SetActive(true);
             }
             else if (PlayerPrefs.GetInt("Level") == 7)
             {
                 Instruction.ShowDlgBar("Break the electric board in the bathroom");
-
+                //SpawnManager.Instance.SavedPostion();
 
             }
             else if (PlayerPrefs.GetInt("Level") == 8)
             {
                 Instruction.ShowDlgBar("The escape Key is in the Top Floor Room");
-
+                //SpawnManager.Instance.SavedPostion();
 
             }
 
@@ -143,7 +150,7 @@ public class GamePlayUI : MonoBehaviour
     {
         Player.SetActive(true);
         PlayerControls.SetActive(true);
-        PlayerPrefs.SetInt("Level", 0);
+        PlayerPrefs.SetInt("Level", PlayerPrefs.GetInt("Level"));
          //   this.GetComponent<TimeBar>().enabled = true;
         Time.timeScale = 1f;
 
@@ -171,7 +178,9 @@ public class GamePlayUI : MonoBehaviour
 
     public void OnPause()
     {
-        AdsManager.instance?.ShowInterstitialWithoutConditions();
+        //nadeem
+        CASAds.instance.ShowInterstitial();
+        //AdsManager.instance?.ShowInterstitialWithoutConditions();
         PausePanel.SetActive(true);
         // GameObject.FindGameObjectWithTag("Player").GetComponent<CrosshairGUI>().enabled = false;
         Player.GetComponent<CrosshairGUI>().enabled = false;
@@ -187,9 +196,11 @@ public class GamePlayUI : MonoBehaviour
     }
     public void OnFail()
     {
-        AdsManager.instance?.ShowInterstitialWithoutConditions();
-        
-      
+        //nadeem
+        CASAds.instance.ShowInterstitial();
+        //AdsManager.instance?.ShowInterstitialWithoutConditions();
+
+
         FailPanel.SetActive(true);
        
     }
@@ -219,7 +230,7 @@ public class GamePlayUI : MonoBehaviour
     {
 
         Time.timeScale = 1;
-        PlayerPrefs.SetInt("Level", 0);
+        PlayerPrefs.SetInt("Level", PlayerPrefs.GetInt("Level"));
         SceneManager.LoadScene(2);
     }
 

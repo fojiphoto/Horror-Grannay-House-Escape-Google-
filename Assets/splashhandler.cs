@@ -7,17 +7,19 @@ public class splashhandler : MonoBehaviour
 {
     public void loadscene()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("GUI");
     }
     public void showbanner()
     {
-        AdsManager.instance?.ShowBanner();
+        //nadeem
+        CASAds.instance.ShowBanner(CAS.AdPosition.TopCenter);
+        //AdsManager.instance?.ShowBanner();
     }
     // Start is called before the first frame update
     void Start()
     {
         Invoke(nameof(showbanner), 4.5f);
-        Invoke(nameof(loadscene), 5f);
+        Invoke(nameof(loadscene), 12f);
     }
 
     

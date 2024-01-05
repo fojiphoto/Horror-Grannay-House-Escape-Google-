@@ -44,12 +44,15 @@ namespace UnityStandardAssets.Characters.FirstPerson
         public Animator playeranim;
 
 
-
+        private void Awake()
+        {
+            //LoadPos();
+            Debug.Log("Player pos " + transform.position);
+        }
         // Use this for initialization
         private void Start()
         {
-
-
+            
 
 
             m_CharacterController = GetComponent<CharacterController>();
@@ -63,11 +66,25 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_AudioSource = GetComponent<AudioSource>();
             m_MouseLook.Init(transform, m_Camera.transform);
         }
-
-
+        public void LoadPos()
+        {
+            float x = PlayerPrefs.GetFloat("XPos");
+            float y = PlayerPrefs.GetFloat("YPos");
+            float z = PlayerPrefs.GetFloat("ZPos");
+            transform.position = new Vector3(x, y, z);
+        }
+        public void SavedPostion()
+        {
+            PlayerPrefs.SetFloat("XPos", transform.position.x);
+            PlayerPrefs.SetFloat("YPos", transform.position.y);
+            PlayerPrefs.SetFloat("ZPos", transform.position.z);
+        }
         // Update is called once per frame
         private void Update()
         {
+
+            //SavedPostion();
+            //LoadPos();
             RotateView();
             // the jump state needs to read here to make sure it is not missed
             if (!m_Jump)

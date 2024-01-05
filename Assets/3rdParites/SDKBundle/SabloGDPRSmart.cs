@@ -24,7 +24,8 @@ public class SabloGDPRSmart : MonoBehaviour
     public void AgreeToTermsPressed()
     {
         Debug.Log("GDPR accepted, lets run game");
-        AdsManager.instance.GDPRPopupAccepted();
+        //nadeem
+        //AdsManager.instance.GDPRPopupAccepted();
         //TapticManager.Impact(ImpactFeedback.Light);
         Destroy(gameObject);
     }
