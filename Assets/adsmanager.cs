@@ -15,17 +15,17 @@ public class adsmanager : MonoBehaviour
     {
         time += Time.deltaTime;
         int timeAsInt = (int)time;
-        if (timeAsInt >= 85 && !promptActive&& !failpannel.activeSelf)
+        if (timeAsInt >= 45 && !promptActive&& !failpannel.activeSelf)
         {
             promptActive = true;
             textPrompt.gameObject.SetActive(true);
         }
         if (promptActive && !failpannel.activeSelf)
         {
-            textPrompt.text = "Ad loading in : " + (90 - timeAsInt).ToString();
+            textPrompt.text = "Ad loading in : " + (50 - timeAsInt).ToString();
         }
 
-        if (timeAsInt >= 90)
+        if (timeAsInt >= 50)
         {
             promptActive = false;
             textPrompt.gameObject.SetActive(false);

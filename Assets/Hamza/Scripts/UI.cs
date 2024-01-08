@@ -184,7 +184,13 @@ public class UI : MonoBehaviour
         //}
        
     }
-
+    public void RevokeConcent()
+    {
+        CASAds.instance?.HideBanner();
+        CASAds.instance?.HideMrecBanner();
+        PlayerPrefs.SetInt("GDPR", 0);
+        Application.LoadLevel("GDPR");
+    }
     public void OnContinue()
     {
         AS.PlayOneShot(Click);

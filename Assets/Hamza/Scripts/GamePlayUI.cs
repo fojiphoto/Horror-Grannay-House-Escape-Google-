@@ -150,7 +150,15 @@ public class GamePlayUI : MonoBehaviour
     {
         Player.SetActive(true);
         PlayerControls.SetActive(true);
-        PlayerPrefs.SetInt("Level", PlayerPrefs.GetInt("Level"));
+        if (PlayerPrefs.GetInt("Revived")>0)
+        {
+            PlayerPrefs.SetInt("Level", PlayerPrefs.GetInt("Level"));
+        }
+        else
+        {
+            PlayerPrefs.SetInt("Level", 0);
+        }
+        
          //   this.GetComponent<TimeBar>().enabled = true;
         Time.timeScale = 1f;
 
@@ -225,13 +233,48 @@ public class GamePlayUI : MonoBehaviour
     public void OnHome()
     {
         SceneManager.LoadScene("GUI");
+        PlayerPrefs.SetInt("Revived", 0);
+    }
+
+    public void OnRevive()
+    {
+        CASAds.instance.ShowRewarded(() =>
+        {
+            Time.timeScale = 1;
+            PlayerPrefs.SetInt("Level", PlayerPrefs.GetInt("Level"));
+            PlayerPrefs.SetInt("Revived", 1);
+            SceneManager.LoadScene("GamePlay");
+        });
+
+        //CASAds.instance.ShowRewarded(OnRevivee);
+
+        Debug.Log("Revived Clicked");
+        
+       
+    }
+    public void OnRevivee()
+    {
+
+        //SpawnManager.Instance.CloseFPS();
+
+        //yield return new WaitForSeconds(1);
+        //SpawnManager.Instance.LoadPos();
+        //yield return new WaitForSeconds(1);
+        //SpawnManager.Instance.StartFPS();
+        Time.timeScale = 1;
+        PlayerPrefs.SetInt("Level", PlayerPrefs.GetInt("Level"));
+        PlayerPrefs.SetInt("Revived", 1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        //SceneManager.LoadScene(3);
     }
     public void OnRestart()
     {
-
+        
         Time.timeScale = 1;
-        PlayerPrefs.SetInt("Level", PlayerPrefs.GetInt("Level"));
-        SceneManager.LoadScene(2);
+        PlayerPrefs.SetInt("Level", 0);
+        PlayerPrefs.SetInt("Revived", 0);
+        SceneManager.LoadScene("GamePlay");
+        
     }
 
     public void levelincrement() {
@@ -251,8 +294,12 @@ public class GamePlayUI : MonoBehaviour
             Time.timeScale = 0;
             OnHome();
         }
+        PlayerPrefs.SetInt("Revived", 0);
     }
-
+    private void OnApplicationQuit()
+    {
+        PlayerPrefs.SetInt("Revived", 0);
+    }
     public void OnNext()
     {
         if (PlayerPrefs.GetInt("Level") <= 8)

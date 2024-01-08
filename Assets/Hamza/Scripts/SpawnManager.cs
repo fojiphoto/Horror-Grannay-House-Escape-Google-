@@ -27,28 +27,36 @@ public class SpawnManager : MonoBehaviour
         Debug.Log("Level " + level);
         //  Instantiate(player, pos.transform.position, Quaternion.identity);
         //Invoke(nameof(LoadPlayerPos), 2f);
-        Invoke(nameof(CloseFPS), 2f);
-        LoadPlayerPos();
-        // LoadPos();
-        // Debug.Log("Player pos "+ transform.position);
-        if (level == 1)
+        if (PlayerPrefs.GetInt("Revived")>0)
         {
-            player.transform.position = positions[1].position;
+            Invoke(nameof(StartFPS), 2f);
+            LoadPos();
         }
+        else
+        {
+            Invoke(nameof(StartFPS), 2f);
+        }
+        
+        //LoadPlayerPos();
+        // Debug.Log("Player pos "+ transform.position);
+        //if (level == 1)
+        //{
+        //    player.transform.position = positions[1].position;
+        //}
 
     }
-    //public void SavedPostion()
-    //{
-    //    PlayerPrefs.SetFloat("XPos", transform.position.x);
-    //    PlayerPrefs.SetFloat("YPos", transform.position.y);
-    //    PlayerPrefs.SetFloat("ZPos", transform.position.z);
-    //}
-    //// Update is called once per frame
-    //void Update()
-    //{
+    public void SavedPostion()
+    {
+        PlayerPrefs.SetFloat("XPos", transform.position.x);
+        PlayerPrefs.SetFloat("YPos", transform.position.y);
+        PlayerPrefs.SetFloat("ZPos", transform.position.z);
+    }
+    // Update is called once per frame
+    void Update()
+    {
 
-    //    SavedPostion();
-    //}
+        SavedPostion();
+    }
 
     public void LoadPos()
     {
@@ -64,8 +72,12 @@ public class SpawnManager : MonoBehaviour
         transform.position = positions[PlayerPrefs.GetInt("Level",0)].transform.position;
     }
 
-    public void CloseFPS()
+    public void StartFPS()
     {
         transform.GetComponent<FirstPersonController>().enabled = true;
+    }
+    public void CloseFPS()
+    {
+        transform.GetComponent<FirstPersonController>().enabled = false;
     }
 }
