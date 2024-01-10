@@ -18,7 +18,7 @@ public class splashhandler : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Invoke(nameof(showbanner), 4.5f);
+        //Invoke(nameof(showbanner), 13f);
         Invoke(nameof(loadscene), 12f);
     }
 

@@ -32,13 +32,14 @@ public class UI : MonoBehaviour
     {
         Application.targetFrameRate = 60;
     }
-
+    
 
     private void Start()
     {
         //PlayerPrefs.SetInt("unlock", 9);
 
-      
+        Invoke(nameof(showbanner), .5f);
+
         Time.timeScale = 1;
 
         //Advertisements.Instance.Initialize();
@@ -95,8 +96,13 @@ public class UI : MonoBehaviour
        
     }
 
-   
 
+    public void showbanner()
+    {
+        //nadeem
+        CASAds.instance.ShowBanner(CAS.AdPosition.TopCenter);
+        //AdsManager.instance?.ShowBanner();
+    }
     public void OnAccept()
     {
         AS.PlayOneShot(Click);

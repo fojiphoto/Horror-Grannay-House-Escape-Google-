@@ -79,5 +79,7 @@ public class SpawnManager : MonoBehaviour
     public void CloseFPS()
     {
         transform.GetComponent<FirstPersonController>().enabled = false;
+       
+       
     }
 }
